@@ -1,0 +1,26 @@
+#import <SenTestingKit/SenTestingKit.h>
+#import "SolarEventCalculator.h"
+
+@interface SolarEventCalculatorTest : SenTestCase {
+
+}
+
+- (void) testGetBaseLongitudeHour;
+- (void) testGetLongitudeHourForSunrise;
+- (void) testGetLongitudeHourForSunset;
+- (void) testGetDayOfYear;
+- (void) testGetMeanAnomalyForSunrise;
+- (void) testGetMeanAnomalyForSunset;
+- (void) testGetSunTrueLongitudeForSunrise;
+- (void) testGetSunTrueLongitudeForSunset;
+- (void) testGetRightAscensionForSunset;
+- (void) testGetRightAscensionForSunset;
+
+- (void) testGetArcCosineFor;
+- (void) testConvertRadiansToDegrees;
+- (void) testConvertDegreesToRadians;
+- (SolarEventCalculator *) getCalculator;
+- (NSString *) getAssertMessage:(NSDecimalNumber *)expectedVal actual:(NSDecimalNumber *)actualVal;
+- (NSDate *) getDate;
+
+@end
