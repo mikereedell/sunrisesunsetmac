@@ -46,33 +46,71 @@
 - (void) testGetSunTrueLongitudeForSunrise {
     SolarEventCalculator *calc = [self getCalculator];
     
-    NSDecimalNumber *expectedSunTrueLong = [NSDecimalNumber decimalNumberWithString:@"220.1965"];
-    NSDecimalNumber *actualSunTrueLong = [calc getSunTrueLongitude:[NSDecimalNumber decimalNumberWithString:@"299.2513"]];
+    NSDecimalNumber *expectedSunTrueLong = [NSDecimalNumber decimalNumberWithString:@"219.6960"];
+    NSDecimalNumber *actualSunTrueLong = [calc getSunTrueLongitude:[NSDecimalNumber decimalNumberWithString:@"298.7585"]];
     STAssertEquals(NSOrderedSame, [expectedSunTrueLong compare:actualSunTrueLong], [actualSunTrueLong stringValue], nil);
 }
 
 - (void) testGetSunTrueLongitudeForSunset {
     SolarEventCalculator *calc = [self getCalculator];
 
-    NSDecimalNumber *expectedSunTrueLong = [NSDecimalNumber decimalNumberWithString:@"219.6959"];
-    NSDecimalNumber *actualSunTrueLong = [calc getSunTrueLongitude:[NSDecimalNumber decimalNumberWithString:@"298.7585"]];
+    NSDecimalNumber *expectedSunTrueLong = [NSDecimalNumber decimalNumberWithString:@"220.1966"];
+    NSDecimalNumber *actualSunTrueLong = [calc getSunTrueLongitude:[NSDecimalNumber decimalNumberWithString:@"299.2513"]];
     STAssertEquals(NSOrderedSame, [expectedSunTrueLong compare:actualSunTrueLong], [actualSunTrueLong stringValue], nil);
 }
 
 - (void) testGetRightAscensionForSunrise {
     SolarEventCalculator *calc = [self getCalculator];
     
-    NSDecimalNumber *expectedRightAscension = [NSDecimalNumber decimalNumberWithString:@"37.2977"];
-    NSDecimalNumber *actualRightAscension = [calc getRightAscension:[NSDecimalNumber decimalNumberWithString:@"220.1965"]];
+    NSDecimalNumber *expectedRightAscension = [NSDecimalNumber decimalNumberWithString:@"14.4865"];
+    NSDecimalNumber *actualRightAscension = [calc getRightAscension:[NSDecimalNumber decimalNumberWithString:@"219.6959"]];
     STAssertEquals(NSOrderedSame, [expectedRightAscension compare:actualRightAscension], [actualRightAscension stringValue], nil);
 }
 
 - (void) testGetRightAscensionForSunset {
     SolarEventCalculator *calc = [self getCalculator];
     
-    NSDecimalNumber *expectedRightAscension = [NSDecimalNumber decimalNumberWithString:@""];
-    NSDecimalNumber *actualRightAscension = [calc getRightAscension:[NSDecimalNumber decimalNumberWithString:@"219.6959"]];
+    NSDecimalNumber *expectedRightAscension = [NSDecimalNumber decimalNumberWithString:@"14.5193"];
+    NSDecimalNumber *actualRightAscension = [calc getRightAscension:[NSDecimalNumber decimalNumberWithString:@"220.1965"]];
     STAssertEquals(NSOrderedSame, [expectedRightAscension compare:actualRightAscension], [actualRightAscension stringValue], nil);    
+}
+
+- (void) testGetCosineSunLocalHourForSunrise {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDecimalNumber *expectedCosSunLocalHour = [NSDecimalNumber decimalNumberWithString:@"0.0793"];
+    NSDecimalNumber *actualCosSunLocalHour = [calc getCosineSunLocalHour:[NSDecimalNumber decimalNumberWithString:@"219.6959"] forZenith:[NSDecimalNumber decimalNumberWithString:@"96"]];
+    STAssertEquals(NSOrderedSame, [expectedCosSunLocalHour compare:actualCosSunLocalHour], [actualCosSunLocalHour stringValue], nil);
+}
+
+- (void) testGetCosineSunLocalHourForSunset {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDecimalNumber *expectedCosSunLocalHour = [NSDecimalNumber decimalNumberWithString:@"0.0817"];
+    NSDecimalNumber *actualCosSunLocalHour = [calc getCosineSunLocalHour:[NSDecimalNumber decimalNumberWithString:@"220.1965"] forZenith:[NSDecimalNumber decimalNumberWithString:@"96"]];
+    STAssertEquals(NSOrderedSame, [expectedCosSunLocalHour compare:actualCosSunLocalHour], [actualCosSunLocalHour stringValue], nil);    
+}
+
+- (void) testGetSunLocalHourForSunrise {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDecimalNumber *zenith = [NSDecimalNumber decimalNumberWithString:@"96"];
+    NSDecimalNumber *sunTrueLongitude = [NSDecimalNumber decimalNumberWithString:@"219.6959"];
+    
+    NSDecimalNumber *expectedSunLocalHour = [NSDecimalNumber decimalNumberWithString:@"18.3033"];
+    NSDecimalNumber *actualSunLocalHour = [calc getSunLocalHour:sunTrueLongitude forZenith:zenith forSunrise:true];
+    STAssertEquals(NSOrderedSame, [expectedSunLocalHour compare:actualSunLocalHour], [actualSunLocalHour stringValue], nil);        
+}
+
+- (void) testGetSunLocalHourForSunset {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDecimalNumber *zenith = [NSDecimalNumber decimalNumberWithString:@"96"];
+    NSDecimalNumber *sunTrueLongitude = [NSDecimalNumber decimalNumberWithString:@"220.1965"];
+    
+    NSDecimalNumber *expectedSunLocalHour = [NSDecimalNumber decimalNumberWithString:@"5.6876"];
+    NSDecimalNumber *actualSunLocalHour = [calc getSunLocalHour:sunTrueLongitude forZenith:zenith forSunrise:false];
+    STAssertEquals(NSOrderedSame, [expectedSunLocalHour compare:actualSunLocalHour], [actualSunLocalHour stringValue], nil);            
 }
 
 //Utility Method Tests

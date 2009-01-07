@@ -24,9 +24,13 @@
 - (NSDecimalNumber *) getMeanAnomaly:(NSDecimalNumber *)longitudeHour;
 - (NSDecimalNumber *) getSunTrueLongitude:(NSDecimalNumber *)meanAnomaly;
 - (NSDecimalNumber *) getRightAscension:(NSDecimalNumber *)sunTrueLong;
-
+- (NSDecimalNumber *) getCosineSunLocalHour:(NSDecimalNumber *)sunTrueLongitude forZenith:(NSDecimalNumber *)zenith;
+- (NSDecimalNumber *) getSunLocalHour:(NSDecimalNumber *)sunTrueLongitude forZenith:(NSDecimalNumber *)zenith forSunrise:(BOOL)isSunrise;
+    
 //Utility methods
 - (NSDecimalNumber *) getDayOfYearForDate:(NSDate *) date;
+- (NSDecimalNumber *) getSinOfSunDeclination:(NSDecimalNumber *)sunTrueLongitude;
+- (NSDecimalNumber *) getCosineOfSunDeclination:(NSDecimalNumber *)sinSunDeclination;
 - (NSDecimalNumber *) multiply:(NSDecimalNumber *)multiplicand by:(NSDecimalNumber *)multiplier;
 - (NSDecimalNumber *) divide:(NSDecimalNumber *)dividend by:(NSDecimalNumber *)divisor;
 - (NSDecimalNumberHandler *) getHandler;

@@ -17,7 +17,7 @@
 }
 
 - (NSDecimalNumber *) getBaseLongitudeHour {
-    return [self divide:[location longitude] by:[NSDecimalNumber decimalNumberWithString: @"15"]];
+    return [self setScale:[self divide:[location longitude] by:[NSDecimalNumber decimalNumberWithString: @"15"]]];
 }
 
 - (NSDecimalNumber *) getLongitudeHourForDate:(NSDate *)date sunrise:(BOOL)isSunrise {
@@ -36,7 +36,7 @@
 
 - (NSDecimalNumber *) getMeanAnomaly:(NSDecimalNumber *)longitudeHour {
     NSDecimalNumber *interim = [self multiply:longitudeHour by:[NSDecimalNumber decimalNumberWithString:@"0.9856"]];
-    return [interim decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"3.289"]];
+    return [self setScale:[interim decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"3.289"]]];
 }
 
 - (NSDecimalNumber *) getSunTrueLongitude:(NSDecimalNumber *)meanAnomaly {
@@ -59,10 +59,9 @@
 
 - (NSDecimalNumber *) getRightAscension:(NSDecimalNumber *)sunTrueLong {
     NSDecimalNumber *tanL = [self decimalNumberFromDouble:tan([[self convertDegreesToRadians:sunTrueLong] doubleValue])];
-    
+
     NSDecimalNumber *innerParams = [self multiply:[self convertRadiansToDegrees:tanL] by:[NSDecimalNumber decimalNumberWithString:@"0.91764"]];
-    NSDecimalNumber *rightAscension =  [self decimalNumberFromDouble:atan([[self convertDegreesToRadians:innerParams] doubleValue])];
-    rightAscension = [self setScale:rightAscension];
+    NSDecimalNumber *rightAscension = [self convertRadiansToDegrees:[self decimalNumberFromDouble:atan([[self convertDegreesToRadians:innerParams] doubleValue])]];
     
     if([rightAscension doubleValue] < 0) {
         rightAscension = [rightAscension decimalNumberByAdding:[NSDecimalNumber decimalNumberWithString:@"360"]];
@@ -77,11 +76,41 @@
     raQuadrant = [self multiply:raQuadrant by:[NSDecimalNumber decimalNumberWithString:@"90"]];
     
     NSDecimalNumber *augend = [longitudeQuadrant decimalNumberBySubtracting:raQuadrant];
-    return [self divide:[rightAscension decimalNumberByAdding:augend] by:[NSDecimalNumber decimalNumberWithString:@"15"]];
+    return [self setScale:[self divide:[rightAscension decimalNumberByAdding:augend] by:[NSDecimalNumber decimalNumberWithString:@"15"]]];
+}
+
+- (NSDecimalNumber *) getCosineSunLocalHour:(NSDecimalNumber *)sunTrueLongitude forZenith:(NSDecimalNumber *)zenith {
+    NSDecimalNumber *sinSunDeclination = [self getSinOfSunDeclination:sunTrueLongitude];
+    NSDecimalNumber *cosineSunDeclination = [self getCosineOfSunDeclination:sinSunDeclination];
+    
+    NSDecimalNumber *zenithInRadians = [self convertDegreesToRadians:zenith];
+    NSDecimalNumber *cosineZenith = [self decimalNumberFromDouble:cos([zenithInRadians doubleValue])];
+    NSDecimalNumber *sinLatitude = [self decimalNumberFromDouble:sin([[self convertDegreesToRadians:[location latitude]] doubleValue])];
+    NSDecimalNumber *cosineLatitude = [self decimalNumberFromDouble:cos([[self convertDegreesToRadians:[location latitude]] doubleValue])];
+    
+    NSDecimalNumber *dividend = [cosineZenith decimalNumberBySubtracting:[self multiply:sinSunDeclination by:sinLatitude]];
+    return [self setScale:[self divide:dividend by:[self multiply:cosineSunDeclination by:cosineLatitude]]];
+}
+
+- (NSDecimalNumber *) getSunLocalHour:(NSDecimalNumber *)sunTrueLongitude forZenith:(NSDecimalNumber *)zenith forSunrise:(BOOL)isSunrise {
+    NSDecimalNumber *sunLocalHour = [self convertRadiansToDegrees:[self getArcCosineFor:[self getCosineSunLocalHour:sunTrueLongitude forZenith:zenith]]];
+    if(isSunrise) {
+        sunLocalHour = [[NSDecimalNumber decimalNumberWithString:@"360"] decimalNumberBySubtracting:sunLocalHour];
+    }
+    return [self setScale:[self divide:sunLocalHour by:[NSDecimalNumber decimalNumberWithString:@"15"]]];
 }
 
 
 //Utility Methods
+- (NSDecimalNumber *) getSinOfSunDeclination:(NSDecimalNumber *)sunTrueLongitude {
+    double sinSunTrueLongitude = sin([[self convertDegreesToRadians:sunTrueLongitude] doubleValue]);
+    return [self setScale:[self decimalNumberFromDouble:(sinSunTrueLongitude * 0.39782)]];
+}
+
+- (NSDecimalNumber *) getCosineOfSunDeclination:(NSDecimalNumber *)sinSunDeclination {
+    return [self setScale:[self decimalNumberFromDouble:cos(asin([sinSunDeclination doubleValue]))]];
+}
+
 - (NSDecimalNumber *) getDayOfYearForDate:(NSDate *)date {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     unsigned units = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit;
@@ -110,11 +139,11 @@
 }
 
 - (NSDecimalNumber *) multiply:(NSDecimalNumber *)multiplicand by:(NSDecimalNumber *)multiplier {
-    return [multiplicand decimalNumberByMultiplyingBy:multiplier withBehavior: [self getHandler]];
+    return [multiplicand decimalNumberByMultiplyingBy:multiplier];
 }
 
 - (NSDecimalNumber *) divide:(NSDecimalNumber *)dividend by:(NSDecimalNumber *)divisor {
-    return [dividend decimalNumberByDividingBy: divisor withBehavior: [self getHandler]];
+    return [dividend decimalNumberByDividingBy: divisor];
 }
 
 - (NSDecimalNumberHandler *) getHandler {
@@ -126,7 +155,7 @@
 }
 
 - (NSDecimalNumber *) setScale:(NSDecimalNumber *)number {
-    return [self multiply:number by:[NSDecimalNumber one]];
+    return [number decimalNumberByMultiplyingBy:[NSDecimalNumber one] withBehavior:[self getHandler]];
 }
 
 @end
