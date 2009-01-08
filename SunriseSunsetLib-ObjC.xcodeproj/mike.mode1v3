@@ -331,7 +331,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>23</integer>
+									<integer>11</integer>
+									<integer>5</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -372,7 +374,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SolarEventCalculatorTest.m</string>
+								<string>SolarEventCalculator.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -380,11 +382,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SolarEventCalculatorTest.m</string>
+										<string>SolarEventCalculator.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>27F5B6A00F144F3000B57647</string>
+										<string>27F5B7080F159D7A00B57647</string>
 										<key>history</key>
 										<array>
 											<string>279D65BD0F07EA59009FB4CF</string>
@@ -394,10 +396,10 @@
 											<string>27F5B3600F0C370D00B57647</string>
 											<string>27F5B4BB0F11210300B57647</string>
 											<string>27F5B5D60F118B0A00B57647</string>
-											<string>27F5B6690F14497200B57647</string>
-											<string>27F5B6820F144C8F00B57647</string>
-											<string>27F5B69D0F144F3000B57647</string>
-											<string>27F5B69E0F144F3000B57647</string>
+											<string>27F5B6E50F15989F00B57647</string>
+											<string>27F5B6FA0F159C5500B57647</string>
+											<string>27F5B7040F159D7A00B57647</string>
+											<string>27F5B7050F159D7A00B57647</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -574,6 +576,31 @@
 											<string>27F5B6850F144C8F00B57647</string>
 											<string>27F5B6860F144C8F00B57647</string>
 											<string>27F5B69F0F144F3000B57647</string>
+											<string>27F5B6A50F1588B800B57647</string>
+											<string>27F5B6A60F1588B800B57647</string>
+											<string>27F5B6A70F1588B800B57647</string>
+											<string>27F5B6A80F1588B800B57647</string>
+											<string>27F5B6A90F1588B800B57647</string>
+											<string>27F5B6AA0F1588B800B57647</string>
+											<string>27F5B6BB0F158FB800B57647</string>
+											<string>27F5B6C00F15910E00B57647</string>
+											<string>27F5B6C10F15910E00B57647</string>
+											<string>27F5B6DC0F15934F00B57647</string>
+											<string>27F5B6DD0F15934F00B57647</string>
+											<string>27F5B6DE0F15934F00B57647</string>
+											<string>27F5B6DF0F15934F00B57647</string>
+											<string>27F5B6E00F15934F00B57647</string>
+											<string>27F5B6E70F15989F00B57647</string>
+											<string>27F5B6E80F15989F00B57647</string>
+											<string>27F5B6E90F15989F00B57647</string>
+											<string>27F5B6FC0F159C5500B57647</string>
+											<string>27F5B6FD0F159C5500B57647</string>
+											<string>27F5B6FE0F159C5500B57647</string>
+											<string>27F5B6FF0F159C5500B57647</string>
+											<string>27F5B7000F159C5500B57647</string>
+											<string>27F5B7010F159C5500B57647</string>
+											<string>27F5B7060F159D7A00B57647</string>
+											<string>27F5B7070F159D7A00B57647</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -752,7 +779,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>252989232.63525</real>
+	<real>253074810.14159101</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -864,7 +891,7 @@
 			<key>WindowToolGUID</key>
 			<string>279D65A00F07D11B009FB4CF</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

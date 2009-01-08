@@ -100,6 +100,43 @@
     return [self setScale:[self divide:sunLocalHour by:[NSDecimalNumber decimalNumberWithString:@"15"]]];
 }
 
+- (NSDecimalNumber *) getLocalMeanTime:(NSDecimalNumber *) sunTrueLongitude longitudeHour:(NSDecimalNumber *)longHour sunLocalHour:(NSDecimalNumber *)localHour {
+    NSDecimalNumber *innerParams = [self multiply:longHour by:[NSDecimalNumber decimalNumberWithString:@"0.06571"]];
+    NSDecimalNumber *localMeanTime = [localHour decimalNumberByAdding:[[self getRightAscension:sunTrueLongitude] decimalNumberBySubtracting:innerParams]];
+    localMeanTime = [localMeanTime decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"6.622"]];
+    
+    if([localMeanTime doubleValue] < 0) {
+        localMeanTime = [localMeanTime decimalNumberByAdding:[NSDecimalNumber decimalNumberWithString:@"24"]];
+    } else if([localMeanTime doubleValue] > 24) {
+        localMeanTime = [localMeanTime decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"24"]];
+    }
+    return [self setScale:localMeanTime];
+}
+
+- (NSDecimalNumber *) getLocalTime:(NSDecimalNumber *)localMeanTime forDate:(NSDate *)date {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSTimeZone *tz = [calendar timeZone];
+    NSDecimalNumber *utcTime = [localMeanTime decimalNumberBySubtracting:[self getBaseLongitudeHour]];
+    NSDecimalNumber *offSet = (NSDecimalNumber *)[NSDecimalNumber numberWithInteger:([tz secondsFromGMTForDate:date] / 3600)];
+    return [self setScale:[utcTime decimalNumberByAdding:offSet]];
+}
+
+- (NSString *) getLocalTimeAsString:(NSDecimalNumber *)localTime {
+    NSArray *localTimeParts = [[localTime stringValue] componentsSeparatedByString:@"."];
+    NSString *hour = (NSString *)[localTimeParts objectAtIndex:0];
+    hour = ([hour length] == 1) ? [@"0" stringByAppendingString:hour] : hour;
+    
+    
+    NSDecimalNumber *minutes = [NSDecimalNumber decimalNumberWithString:(NSString *)[localTimeParts objectAtIndex:1]];
+    minutes = [[NSDecimalNumber zero] decimalNumberBySubtracting:minutes];
+    NSLog(@"Minutes:");
+    NSLog([minutes stringValue]);
+    minutes = [self decimalNumberFromDouble:round([minutes doubleValue] * 60)];
+    NSLog([minutes stringValue]);    
+    
+    NSString *minString = ([minutes intValue] < 10) ? [@"0" stringByAppendingString:[minutes stringValue]] : [minutes stringValue];
+    return [[hour stringByAppendingString:@":"] stringByAppendingString:minString];
+}
 
 //Utility Methods
 - (NSDecimalNumber *) getSinOfSunDeclination:(NSDecimalNumber *)sunTrueLongitude {

@@ -113,6 +113,68 @@
     STAssertEquals(NSOrderedSame, [expectedSunLocalHour compare:actualSunLocalHour], [actualSunLocalHour stringValue], nil);            
 }
 
+- (void) testGetLocalMeanTimeForSunrise {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDecimalNumber *sunTrueLongitude = [NSDecimalNumber decimalNumberWithString:@"219.6959"];
+    NSDecimalNumber *longitudeHour = [NSDecimalNumber decimalNumberWithString:@"306.4605"];
+    NSDecimalNumber *sunLocalHour = [NSDecimalNumber decimalNumberWithString:@"18.3033"];
+    
+    NSDecimalNumber *expectedLocalMeanTime = [NSDecimalNumber decimalNumberWithString:@"6.0303"];
+    NSDecimalNumber *actualLocalMeanTime = [calc getLocalMeanTime:sunTrueLongitude longitudeHour:longitudeHour sunLocalHour:sunLocalHour];
+    STAssertEquals(NSOrderedSame, [expectedLocalMeanTime compare:actualLocalMeanTime], [actualLocalMeanTime stringValue], nil);        
+}
+
+- (void) testGetLocalMeanTimeForSunset {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDecimalNumber *sunTrueLongitude = [NSDecimalNumber decimalNumberWithString:@"220.1965"];
+    NSDecimalNumber *longitudeHour = [NSDecimalNumber decimalNumberWithString:@"306.9605"];
+    NSDecimalNumber *sunLocalHour = [NSDecimalNumber decimalNumberWithString:@"5.6876"];
+    
+    NSDecimalNumber *expectedLocalMeanTime = [NSDecimalNumber decimalNumberWithString:@"17.4145"];
+    NSDecimalNumber *actualLocalMeanTime = [calc getLocalMeanTime:sunTrueLongitude longitudeHour:longitudeHour sunLocalHour:sunLocalHour];
+    STAssertEquals(NSOrderedSame, [expectedLocalMeanTime compare:actualLocalMeanTime], [actualLocalMeanTime stringValue], nil);
+}
+
+- (void) testGetLocalTimeForSunrise {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDecimalNumber *localMeanTime = [NSDecimalNumber decimalNumberWithString:@"6.0303"];
+    NSDate *date = [self getDate];
+    
+    NSDecimalNumber *expectedLocalTime = [NSDecimalNumber decimalNumberWithString:@"7.0826"];
+    NSDecimalNumber *actualLocalTime = [calc getLocalTime:localMeanTime forDate:date];
+    STAssertEquals(NSOrderedSame, [expectedLocalTime compare:actualLocalTime], [actualLocalTime stringValue], nil);
+}
+
+- (void) testGetLocalTimeForSunset {
+    SolarEventCalculator *calc = [self getCalculator];
+
+    NSDecimalNumber *localMeanTime = [NSDecimalNumber decimalNumberWithString:@"17.4145"];
+    NSDate *date = [self getDate];
+
+    NSDecimalNumber *expectedLocalTime = [NSDecimalNumber decimalNumberWithString:@"18.4668"];
+    NSDecimalNumber *actualLocalTime = [calc getLocalTime:localMeanTime forDate:date];
+    STAssertEquals(NSOrderedSame, [expectedLocalTime compare:actualLocalTime], [actualLocalTime stringValue], nil);    
+}
+
+- (void) testGetLocalTimeAsStringForSunrise {
+    SolarEventCalculator *calc = [self getCalculator];
+        
+    NSString *expectedLocalTime = @"7:05";
+    NSString *actualLocalTime = [calc getLocalTimeAsString:[NSDecimalNumber decimalNumberWithString:@"7.0826"]];
+    STAssertEquals(NSOrderedSame, [expectedLocalTime compare:actualLocalTime], actualLocalTime, nil);        
+}
+
+- (void) testGetLocalTimeAsStringForSunset {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSString *expectedLocalTime = @"18:28";
+    NSString *actualLocalTime = [calc getLocalTimeAsString:[NSDecimalNumber decimalNumberWithString:@"18.4668"]];
+    STAssertEquals(NSOrderedSame, [expectedLocalTime compare:actualLocalTime], actualLocalTime, nil);
+}
+
 //Utility Method Tests
 - (void) testGetDayOfYear {
     NSDate *date = [self getDate];

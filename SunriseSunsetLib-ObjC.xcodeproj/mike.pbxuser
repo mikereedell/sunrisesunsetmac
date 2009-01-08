@@ -664,9 +664,9 @@
 	};
 	279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1033, 2184}}";
-			sepNavSelRange = "{5458, 0}";
-			sepNavVisRange = "{4804, 2517}";
+			sepNavIntBoundsRect = "{{0, 0}, {1033, 2632}}";
+			sepNavSelRange = "{7889, 0}";
+			sepNavVisRange = "{6725, 2294}";
 			sepNavWindowFrame = "{{103, 140}, {897, 712}}";
 		};
 	};
@@ -897,7 +897,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 22";
 		rLen = 0;
-		rLoc = 2153;
+		rLoc = 2468;
 		rType = 0;
 		vrLen = 584;
 		vrLoc = 0;
@@ -927,7 +927,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 4";
 		rLen = 0;
-		rLoc = 8630;
+		rLoc = 10951;
 		rType = 0;
 		vrLen = 77;
 		vrLoc = 0;
@@ -1117,7 +1117,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 22";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1727;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 0;
@@ -1137,7 +1137,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 22";
 		rLen = 0;
-		rLoc = 1412;
+		rLoc = 1727;
 		rType = 0;
 		vrLen = 668;
 		vrLoc = 0;
@@ -1157,7 +1157,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 40;
-		rLoc = 1779;
+		rLoc = 2094;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 0;
@@ -1167,7 +1167,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 31";
 		rLen = 0;
-		rLoc = 8110;
+		rLoc = 10431;
 		rType = 0;
 		vrLen = 695;
 		vrLoc = 0;
@@ -1177,7 +1177,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1818;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 0;
@@ -1187,7 +1187,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 0;
@@ -1197,7 +1197,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1818;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 0;
@@ -1207,7 +1207,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 0;
@@ -1217,7 +1217,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1818;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 0;
@@ -1227,7 +1227,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 0;
@@ -1237,7 +1237,7 @@
 		fRef = 279D65F60F07EC9E009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1818;
+		rLoc = 2133;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 0;
@@ -1247,7 +1247,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 0;
@@ -1257,7 +1257,7 @@
 		fRef = 279D660B0F082555009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1811;
+		rLoc = 2126;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 0;
@@ -1267,7 +1267,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 805;
 		vrLoc = 0;
@@ -1277,7 +1277,7 @@
 		fRef = 279D660B0F082555009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1811;
+		rLoc = 2126;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 0;
@@ -1287,7 +1287,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 0;
@@ -1297,7 +1297,7 @@
 		fRef = 279D660B0F082555009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1811;
+		rLoc = 2126;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 0;
@@ -1307,7 +1307,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 0;
@@ -1317,7 +1317,7 @@
 		fRef = 279D660B0F082555009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1811;
+		rLoc = 2126;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 0;
@@ -1327,7 +1327,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 0;
-		rLoc = 8199;
+		rLoc = 10520;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 0;
@@ -1397,7 +1397,7 @@
 		fRef = 279D661D0F0825D2009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 22";
 		rLen = 227;
-		rLoc = 1367;
+		rLoc = 1682;
 		rType = 0;
 		vrLen = 703;
 		vrLoc = 0;
@@ -1437,7 +1437,7 @@
 		fRef = 279D661D0F0825D2009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 21";
 		rLen = 0;
-		rLoc = 1349;
+		rLoc = 1664;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 0;
@@ -1447,7 +1447,7 @@
 		fRef = 279D66280F082641009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 30";
 		rLen = 88;
-		rLoc = 7935;
+		rLoc = 10256;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 122;
@@ -1457,7 +1457,7 @@
 		fRef = 279D661D0F0825D2009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 24";
 		rLen = 0;
-		rLoc = 1778;
+		rLoc = 2093;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 0;
@@ -1467,7 +1467,7 @@
 		fRef = 279D662F0F08279A009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 33";
 		rLen = 0;
-		rLoc = 7931;
+		rLoc = 10252;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 140;
@@ -1477,7 +1477,7 @@
 		fRef = 279D661D0F0825D2009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1690;
+		rLoc = 2005;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 0;
@@ -1487,7 +1487,7 @@
 		fRef = 279D662F0F08279A009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 97;
-		rLoc = 7767;
+		rLoc = 10088;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 279;
@@ -1497,7 +1497,7 @@
 		fRef = 279D661D0F0825D2009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1690;
+		rLoc = 2005;
 		rType = 0;
 		vrLen = 884;
 		vrLoc = 0;
@@ -1507,7 +1507,7 @@
 		fRef = 279D662F0F08279A009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 32";
 		rLen = 97;
-		rLoc = 7767;
+		rLoc = 10088;
 		rType = 0;
 		vrLen = 927;
 		vrLoc = 279;
@@ -1930,7 +1930,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 9";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 227;
 		vrLoc = 0;
@@ -1940,7 +1940,7 @@
 		fRef = 279D66B40F0837D4009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 18";
 		rLen = 480;
-		rLoc = 8076;
+		rLoc = 11387;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -1970,7 +1970,7 @@
 		fRef = 279D66B40F0837D4009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 17";
 		rLen = 0;
-		rLoc = 8561;
+		rLoc = 11872;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 0;
@@ -1980,7 +1980,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 9";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 198;
 		vrLoc = 0;
@@ -2010,7 +2010,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 9";
 		rLen = 99;
-		rLoc = 759;
+		rLoc = 1002;
 		rType = 0;
 		vrLen = 227;
 		vrLoc = 0;
@@ -2020,7 +2020,7 @@
 		fRef = 279D66B40F0837D4009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 18";
 		rLen = 480;
-		rLoc = 8076;
+		rLoc = 11387;
 		rType = 0;
 		vrLen = 921;
 		vrLoc = 0;
@@ -2030,7 +2030,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 9";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 227;
 		vrLoc = 0;
@@ -2228,7 +2228,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 9";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 227;
 		vrLoc = 0;
@@ -2258,7 +2258,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 39";
 		rLen = 0;
-		rLoc = 6506;
+		rLoc = 8827;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 599;
@@ -2268,7 +2268,7 @@
 		fRef = 279D67070F085BDF009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1408;
+		rLoc = 1723;
 		rType = 0;
 		vrLen = 1032;
 		vrLoc = 0;
@@ -2328,7 +2328,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 9";
 		rLen = 0;
-		rLoc = 821;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 227;
 		vrLoc = 0;
@@ -2408,7 +2408,7 @@
 		fRef = 279D67070F085BDF009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 227;
-		rLoc = 1367;
+		rLoc = 1682;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 0;
@@ -2438,7 +2438,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 48";
 		rLen = 0;
-		rLoc = 7966;
+		rLoc = 10287;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 670;
@@ -2458,7 +2458,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 48";
 		rLen = 0;
-		rLoc = 7966;
+		rLoc = 10287;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 122;
@@ -2488,7 +2488,7 @@
 		fRef = 279D67070F085BDF009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 24";
 		rLen = 0;
-		rLoc = 1629;
+		rLoc = 1944;
 		rType = 0;
 		vrLen = 1032;
 		vrLoc = 0;
@@ -2498,7 +2498,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 48";
 		rLen = 0;
-		rLoc = 8081;
+		rLoc = 10402;
 		rType = 0;
 		vrLen = 1228;
 		vrLoc = 738;
@@ -2508,7 +2508,7 @@
 		fRef = 279D67070F085BDF009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1408;
+		rLoc = 1723;
 		rType = 0;
 		vrLen = 1032;
 		vrLoc = 0;
@@ -2518,7 +2518,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 43";
 		rLen = 0;
-		rLoc = 7832;
+		rLoc = 10153;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 188;
@@ -2548,7 +2548,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 39";
 		rLen = 0;
-		rLoc = 6506;
+		rLoc = 8827;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 599;
@@ -2588,7 +2588,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 46";
 		rLen = 0;
-		rLoc = 6738;
+		rLoc = 9059;
 		rType = 0;
 		vrLen = 1546;
 		vrLoc = 447;
@@ -2598,7 +2598,7 @@
 		fRef = 279D67190F085EEB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 50";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1503;
 		vrLoc = 447;
@@ -2626,7 +2626,7 @@
 		isa = PBXTextBookmark;
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		rLen = 0;
-		rLoc = 113;
+		rLoc = 150;
 		rType = 1;
 	};
 	279D67630F09A4D9009FB4CF /* PBXTextBookmark */ = {
@@ -2634,7 +2634,7 @@
 		fRef = 279D67600F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 43";
 		rLen = 0;
-		rLoc = 6738;
+		rLoc = 9059;
 		rType = 0;
 		vrLen = 1302;
 		vrLoc = 991;
@@ -2714,7 +2714,7 @@
 		fRef = 279D67600F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 53";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1512;
 		vrLoc = 991;
@@ -2774,7 +2774,7 @@
 		fRef = 279D67600F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 53";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 1103;
@@ -2784,7 +2784,7 @@
 		fRef = 279D67600F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 53";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1709;
 		vrLoc = 991;
@@ -2824,7 +2824,7 @@
 		fRef = 279D67600F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 53";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 1103;
@@ -2844,7 +2844,7 @@
 		fRef = 279D67600F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 53";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 1103;
@@ -2868,7 +2868,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7094;
+		rLoc = 9415;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 888;
@@ -2878,7 +2878,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 10";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 266;
 		vrLoc = 0;
@@ -2888,7 +2888,7 @@
 		fRef = 279D67970F09B152009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 34";
 		rLen = 0;
-		rLoc = 8280;
+		rLoc = 11591;
 		rType = 0;
 		vrLen = 1402;
 		vrLoc = 0;
@@ -2898,7 +2898,7 @@
 		fRef = 279D67600F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 57";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1584;
 		vrLoc = 1103;
@@ -2918,7 +2918,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7094;
+		rLoc = 9415;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 888;
@@ -2928,7 +2928,7 @@
 		fRef = 279D67970F09B152009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 34";
 		rLen = 0;
-		rLoc = 8280;
+		rLoc = 11591;
 		rType = 0;
 		vrLen = 1402;
 		vrLoc = 0;
@@ -2938,7 +2938,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 10";
 		rLen = 0;
-		rLoc = 857;
+		rLoc = 1100;
 		rType = 0;
 		vrLen = 266;
 		vrLoc = 0;
@@ -2948,7 +2948,7 @@
 		fRef = 279D67970F09B152009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 8555;
+		rLoc = 11866;
 		rType = 0;
 		vrLen = 1563;
 		vrLoc = 71;
@@ -3103,7 +3103,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7094;
+		rLoc = 9415;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 822;
@@ -3123,7 +3123,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1487;
 		vrLoc = 822;
@@ -3163,7 +3163,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1694;
 		vrLoc = 822;
@@ -3192,7 +3192,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1694;
 		vrLoc = 822;
@@ -3209,7 +3209,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1694;
 		vrLoc = 822;
@@ -3380,7 +3380,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1655;
 		vrLoc = 822;
@@ -3400,7 +3400,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1655;
 		vrLoc = 822;
@@ -3420,7 +3420,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1692;
 		vrLoc = 822;
@@ -3440,7 +3440,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 66";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 0;
@@ -3450,7 +3450,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 66";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 0;
@@ -3470,7 +3470,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 49";
 		rLen = 0;
-		rLoc = 6738;
+		rLoc = 9059;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 1254;
@@ -3480,7 +3480,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 60";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 1230;
@@ -3490,7 +3490,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 51";
 		rLen = 0;
-		rLoc = 6940;
+		rLoc = 9261;
 		rType = 0;
 		vrLen = 1586;
 		vrLoc = 991;
@@ -3500,7 +3500,7 @@
 		comments = "error: incompatible type for argument 1 of 'decimalNumberWithString:'";
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		rLen = 1;
-		rLoc = 127;
+		rLoc = 164;
 		rType = 1;
 	};
 	27F5B37F0F0FFC6E00B57647 /* PBXTextBookmark */ = {
@@ -3508,7 +3508,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 1932;
@@ -3518,7 +3518,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 1932;
@@ -3528,7 +3528,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 1932;
@@ -3548,7 +3548,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 102;
-		rLoc = 7216;
+		rLoc = 9537;
 		rType = 0;
 		vrLen = 1444;
 		vrLoc = 1333;
@@ -3558,7 +3558,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 102;
-		rLoc = 7216;
+		rLoc = 9537;
 		rType = 0;
 		vrLen = 1387;
 		vrLoc = 1390;
@@ -3578,7 +3578,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 66";
 		rLen = 0;
-		rLoc = 7707;
+		rLoc = 10028;
 		rType = 0;
 		vrLen = 1714;
 		vrLoc = 1274;
@@ -3588,7 +3588,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 1932;
@@ -3598,7 +3598,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 1932;
@@ -3608,7 +3608,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 66";
 		rLen = 0;
-		rLoc = 7739;
+		rLoc = 10060;
 		rType = 0;
 		vrLen = 1710;
 		vrLoc = 1274;
@@ -3618,7 +3618,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 298;
 		vrLoc = 1932;
@@ -3628,7 +3628,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 298;
 		vrLoc = 1932;
@@ -3638,7 +3638,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 298;
 		vrLoc = 1932;
@@ -3648,7 +3648,7 @@
 		fRef = 279D66FC0F085AD1009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 26";
 		rLen = 0;
-		rLoc = 2153;
+		rLoc = 2468;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 0;
@@ -3658,7 +3658,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 84";
 		rLen = 0;
-		rLoc = 8630;
+		rLoc = 10951;
 		rType = 0;
 		vrLen = 1579;
 		vrLoc = 1556;
@@ -3678,7 +3678,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 81";
 		rLen = 62;
-		rLoc = 8327;
+		rLoc = 10648;
 		rType = 0;
 		vrLen = 1368;
 		vrLoc = 1935;
@@ -3688,7 +3688,7 @@
 		fRef = 279D66FC0F085AD1009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 26";
 		rLen = 0;
-		rLoc = 2153;
+		rLoc = 2468;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 0;
@@ -3698,7 +3698,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 84";
 		rLen = 0;
-		rLoc = 8630;
+		rLoc = 10951;
 		rType = 0;
 		vrLen = 1579;
 		vrLoc = 1556;
@@ -3718,7 +3718,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 10";
 		rLen = 0;
-		rLoc = 678;
+		rLoc = 921;
 		rType = 0;
 		vrLen = 372;
 		vrLoc = 0;
@@ -3738,7 +3738,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 54";
 		rLen = 0;
-		rLoc = 7095;
+		rLoc = 9416;
 		rType = 0;
 		vrLen = 1798;
 		vrLoc = 602;
@@ -3748,7 +3748,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 1627;
 		vrLoc = 676;
@@ -3758,7 +3758,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 43";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 10563;
 		rType = 0;
 		vrLen = 1957;
 		vrLoc = 114;
@@ -3768,7 +3768,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 84";
 		rLen = 0;
-		rLoc = 8630;
+		rLoc = 10951;
 		rType = 0;
 		vrLen = 1741;
 		vrLoc = 1561;
@@ -3778,7 +3778,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 34";
 		rLen = 30;
-		rLoc = 6824;
+		rLoc = 10135;
 		rType = 0;
 		vrLen = 1957;
 		vrLoc = 114;
@@ -3788,7 +3788,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 11";
 		rLen = 0;
-		rLoc = 758;
+		rLoc = 1001;
 		rType = 0;
 		vrLen = 297;
 		vrLoc = 0;
@@ -3798,7 +3798,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 43";
 		rLen = 738;
-		rLoc = 7159;
+		rLoc = 10470;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 673;
@@ -3808,7 +3808,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 10";
 		rLen = 0;
-		rLoc = 678;
+		rLoc = 921;
 		rType = 0;
 		vrLen = 372;
 		vrLoc = 0;
@@ -3818,7 +3818,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 1413;
 		vrLoc = 890;
@@ -3828,7 +3828,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 84";
 		rLen = 0;
-		rLoc = 8630;
+		rLoc = 10951;
 		rType = 0;
 		vrLen = 1746;
 		vrLoc = 1556;
@@ -3838,7 +3838,7 @@
 		fRef = 279D66FC0F085AD1009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 26";
 		rLen = 0;
-		rLoc = 2153;
+		rLoc = 2468;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 0;
@@ -3848,7 +3848,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 56";
 		rLen = 66;
-		rLoc = 7097;
+		rLoc = 9418;
 		rType = 0;
 		vrLen = 1746;
 		vrLoc = 1556;
@@ -3858,7 +3858,7 @@
 		fRef = 279D66FC0F085AD1009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 26";
 		rLen = 0;
-		rLoc = 1959;
+		rLoc = 2274;
 		rType = 0;
 		vrLen = 1163;
 		vrLoc = 0;
@@ -3868,7 +3868,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 61";
 		rLen = 74;
-		rLoc = 7321;
+		rLoc = 9642;
 		rType = 0;
 		vrLen = 1746;
 		vrLoc = 1556;
@@ -3878,7 +3878,7 @@
 		fRef = 279D66FC0F085AD1009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 27";
 		rLen = 0;
-		rLoc = 1959;
+		rLoc = 2274;
 		rType = 0;
 		vrLen = 1237;
 		vrLoc = 0;
@@ -3888,7 +3888,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 65";
 		rLen = 74;
-		rLoc = 7546;
+		rLoc = 9867;
 		rType = 0;
 		vrLen = 1746;
 		vrLoc = 1556;
@@ -3908,7 +3908,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 54";
 		rLen = 0;
-		rLoc = 7095;
+		rLoc = 9416;
 		rType = 0;
 		vrLen = 1798;
 		vrLoc = 602;
@@ -3918,7 +3918,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 42";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 1791;
 		vrLoc = 341;
@@ -3938,7 +3938,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 390;
 		vrLoc = 1932;
@@ -3948,7 +3948,7 @@
 		comments = "error: -[SolarEventCalculatorTest testGetArcCosineFor] : '0' should be equal to '-1': Expected 8700 but was 15708";
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		rLen = 0;
-		rLoc = 127;
+		rLoc = 189;
 		rType = 1;
 	};
 	27F5B3BB0F100F9000B57647 /* PBXTextBookmark */ = {
@@ -3956,7 +3956,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7315;
+		rLoc = 9636;
 		rType = 0;
 		vrLen = 390;
 		vrLoc = 1932;
@@ -3966,7 +3966,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -3976,7 +3976,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -3986,7 +3986,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -3996,7 +3996,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4006,7 +4006,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4016,7 +4016,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4026,7 +4026,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4036,7 +4036,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4046,7 +4046,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4056,7 +4056,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4066,7 +4066,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4076,7 +4076,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 525;
 		vrLoc = 1582;
@@ -4089,8 +4089,8 @@
 		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1033, 598}}";
-			sepNavSelRange = "{609, 0}";
-			sepNavVisRange = "{0, 887}";
+			sepNavSelRange = "{852, 0}";
+			sepNavVisRange = "{0, 1130}";
 		};
 	};
 	27F5B3DA0F10106400B57647 /* PBXTextBookmark */ = {
@@ -4098,7 +4098,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1777;
@@ -4108,7 +4108,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1777;
@@ -4118,7 +4118,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1777;
@@ -4128,7 +4128,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 32";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 1089;
@@ -4138,7 +4138,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 32";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 1089;
@@ -4148,7 +4148,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 32";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 466;
 		vrLoc = 1089;
@@ -4158,7 +4158,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 29";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 1071;
@@ -4168,7 +4168,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 29";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 1071;
@@ -4178,7 +4178,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 29";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 1071;
@@ -4206,7 +4206,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 31";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 481;
 		vrLoc = 740;
@@ -4216,7 +4216,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 31";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 481;
 		vrLoc = 740;
@@ -4226,7 +4226,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 31";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 481;
 		vrLoc = 740;
@@ -4236,7 +4236,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7302;
+		rLoc = 9623;
 		rType = 0;
 		vrLen = 1882;
 		vrLoc = 1255;
@@ -4263,7 +4263,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 44";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 1716;
 		vrLoc = 681;
@@ -4273,7 +4273,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7302;
+		rLoc = 9623;
 		rType = 0;
 		vrLen = 1882;
 		vrLoc = 1255;
@@ -4283,7 +4283,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 48";
 		rLen = 42;
-		rLoc = 7897;
+		rLoc = 11208;
 		rType = 0;
 		vrLen = 1615;
 		vrLoc = 678;
@@ -4293,7 +4293,7 @@
 		fRef = 279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 13";
 		rLen = 0;
-		rLoc = 758;
+		rLoc = 1001;
 		rType = 0;
 		vrLen = 414;
 		vrLoc = 0;
@@ -4303,7 +4303,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 48";
 		rLen = 42;
-		rLoc = 7897;
+		rLoc = 11208;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 678;
@@ -4313,7 +4313,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 13";
 		rLen = 0;
-		rLoc = 758;
+		rLoc = 1001;
 		rType = 0;
 		vrLen = 414;
 		vrLoc = 0;
@@ -4323,7 +4323,7 @@
 		fRef = 279D67D70F09BDB0009FB4CF /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 48";
 		rLen = 42;
-		rLoc = 7897;
+		rLoc = 11208;
 		rType = 0;
 		vrLen = 1764;
 		vrLoc = 0;
@@ -4373,7 +4373,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7897;
+		rLoc = 11208;
 		rType = 0;
 		vrLen = 1712;
 		vrLoc = 116;
@@ -4383,7 +4383,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 28";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 740;
@@ -4393,7 +4393,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 28";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 740;
@@ -4403,7 +4403,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 28";
 		rLen = 0;
-		rLoc = 7049;
+		rLoc = 10360;
 		rType = 0;
 		vrLen = 577;
 		vrLoc = 740;
@@ -4413,7 +4413,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7302;
+		rLoc = 9623;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 0;
@@ -4453,7 +4453,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 32";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 10563;
 		rType = 0;
 		vrLen = 1647;
 		vrLoc = 469;
@@ -4463,7 +4463,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7302;
+		rLoc = 9623;
 		rType = 0;
 		vrLen = 1744;
 		vrLoc = 1561;
@@ -4473,7 +4473,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 33";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 10563;
 		rType = 0;
 		vrLen = 1572;
 		vrLoc = 469;
@@ -4483,7 +4483,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7302;
+		rLoc = 9623;
 		rType = 0;
 		vrLen = 1749;
 		vrLoc = 1556;
@@ -4493,7 +4493,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 41";
 		rLen = 0;
-		rLoc = 7976;
+		rLoc = 11287;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 0;
@@ -4503,7 +4503,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 58";
 		rLen = 0;
-		rLoc = 7302;
+		rLoc = 9623;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 0;
@@ -4543,7 +4543,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7942;
+		rLoc = 11253;
 		rType = 0;
 		vrLen = 1632;
 		vrLoc = 473;
@@ -4553,7 +4553,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 37";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 501;
@@ -4563,7 +4563,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 33";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 10563;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 564;
@@ -4573,7 +4573,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1843;
 		vrLoc = 501;
@@ -4583,7 +4583,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1843;
 		vrLoc = 501;
@@ -4593,7 +4593,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 35";
 		rLen = 0;
-		rLoc = 5969;
+		rLoc = 8290;
 		rType = 0;
 		vrLen = 1882;
 		vrLoc = 1254;
@@ -4603,7 +4603,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 69";
 		rLen = 0;
-		rLoc = 7762;
+		rLoc = 10083;
 		rType = 0;
 		vrLen = 2125;
 		vrLoc = 1594;
@@ -4613,7 +4613,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 60";
 		rLen = 147;
-		rLoc = 7396;
+		rLoc = 9717;
 		rType = 0;
 		vrLen = 2089;
 		vrLoc = 1633;
@@ -4623,7 +4623,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1707;
 		vrLoc = 637;
@@ -4633,7 +4633,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 69";
 		rLen = 0;
-		rLoc = 7743;
+		rLoc = 10064;
 		rType = 0;
 		vrLen = 2125;
 		vrLoc = 1594;
@@ -4643,7 +4643,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1655;
 		vrLoc = 689;
@@ -4653,7 +4653,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 60";
 		rLen = 147;
-		rLoc = 7396;
+		rLoc = 9717;
 		rType = 0;
 		vrLen = 2089;
 		vrLoc = 1633;
@@ -4663,7 +4663,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 637;
@@ -4673,7 +4673,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 41";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1954;
 		vrLoc = 637;
@@ -4683,7 +4683,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 10563;
 		rType = 0;
 		vrLen = 1887;
 		vrLoc = 832;
@@ -4693,7 +4693,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 63";
 		rLen = 0;
-		rLoc = 7489;
+		rLoc = 9810;
 		rType = 0;
 		vrLen = 2227;
 		vrLoc = 1670;
@@ -4703,7 +4703,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 41";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1887;
 		vrLoc = 832;
@@ -4713,7 +4713,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 60";
 		rLen = 0;
-		rLoc = 7396;
+		rLoc = 9717;
 		rType = 0;
 		vrLen = 2088;
 		vrLoc = 1633;
@@ -4723,7 +4723,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 10563;
 		rType = 0;
 		vrLen = 1887;
 		vrLoc = 832;
@@ -4733,7 +4733,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 63";
 		rLen = 0;
-		rLoc = 7489;
+		rLoc = 9810;
 		rType = 0;
 		vrLen = 2227;
 		vrLoc = 1670;
@@ -4743,7 +4743,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 35";
 		rLen = 0;
-		rLoc = 7252;
+		rLoc = 10563;
 		rType = 0;
 		vrLen = 1887;
 		vrLoc = 832;
@@ -4753,7 +4753,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 67";
 		rLen = 0;
-		rLoc = 7489;
+		rLoc = 9810;
 		rType = 0;
 		vrLen = 1917;
 		vrLoc = 1670;
@@ -4763,7 +4763,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 46";
 		rLen = 0;
-		rLoc = 7894;
+		rLoc = 11205;
 		rType = 0;
 		vrLen = 2035;
 		vrLoc = 689;
@@ -4773,7 +4773,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 61";
 		rLen = 0;
-		rLoc = 7396;
+		rLoc = 9717;
 		rType = 0;
 		vrLen = 1905;
 		vrLoc = 1670;
@@ -4783,7 +4783,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 61";
 		rLen = 0;
-		rLoc = 7396;
+		rLoc = 9717;
 		rType = 0;
 		vrLen = 1905;
 		vrLoc = 1670;
@@ -4793,7 +4793,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 46";
 		rLen = 0;
-		rLoc = 7894;
+		rLoc = 11205;
 		rType = 0;
 		vrLen = 2035;
 		vrLoc = 689;
@@ -4803,7 +4803,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 61";
 		rLen = 0;
-		rLoc = 7396;
+		rLoc = 9717;
 		rType = 0;
 		vrLen = 1942;
 		vrLoc = 1633;
@@ -4831,7 +4831,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -4841,7 +4841,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -4851,7 +4851,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -4871,7 +4871,7 @@
 		fRef = 279D66FC0F085AD1009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1624;
+		rLoc = 1939;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 0;
@@ -4881,7 +4881,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 43";
 		rLen = 0;
-		rLoc = 7522;
+		rLoc = 10833;
 		rType = 0;
 		vrLen = 2104;
 		vrLoc = 38;
@@ -4890,7 +4890,7 @@
 		isa = PBXTextBookmark;
 		fRef = 27F5B4690F106BE100B57647 /* SolarEventCalculator.m */;
 		rLen = 1;
-		rLoc = 137;
+		rLoc = 174;
 		rType = 1;
 	};
 	27F5B47E0F106C2700B57647 /* PBXTextBookmark */ = {
@@ -4898,7 +4898,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 67";
 		rLen = 0;
-		rLoc = 7480;
+		rLoc = 9801;
 		rType = 0;
 		vrLen = 1985;
 		vrLoc = 1633;
@@ -4918,7 +4918,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 43";
 		rLen = 0;
-		rLoc = 7522;
+		rLoc = 10833;
 		rType = 0;
 		vrLen = 2148;
 		vrLoc = 689;
@@ -4928,7 +4928,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 91";
 		rLen = 0;
-		rLoc = 7832;
+		rLoc = 10153;
 		rType = 0;
 		vrLen = 1842;
 		vrLoc = 2747;
@@ -4938,7 +4938,7 @@
 		fRef = 279D66FC0F085AD1009FB4CF /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 23";
 		rLen = 0;
-		rLoc = 1624;
+		rLoc = 1939;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 0;
@@ -4948,7 +4948,7 @@
 		fRef = 279D675D0F09A4CB009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 77";
 		rLen = 0;
-		rLoc = 7542;
+		rLoc = 9863;
 		rType = 0;
 		vrLen = 2001;
 		vrLoc = 1933;
@@ -4958,7 +4958,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 43";
 		rLen = 0;
-		rLoc = 7522;
+		rLoc = 10833;
 		rType = 0;
 		vrLen = 2104;
 		vrLoc = 38;
@@ -4968,7 +4968,7 @@
 		fRef = 27F5B4750F106BFA00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 63";
 		rLen = 0;
-		rLoc = 7480;
+		rLoc = 9801;
 		rType = 0;
 		vrLen = 2030;
 		vrLoc = 2140;
@@ -4978,7 +4978,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -4988,7 +4988,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -4998,7 +4998,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5008,7 +5008,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5018,7 +5018,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5028,7 +5028,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5038,7 +5038,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5048,7 +5048,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5058,7 +5058,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5068,7 +5068,7 @@
 		fRef = 27F5B4750F106BFA00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 64";
 		rLen = 0;
-		rLoc = 7480;
+		rLoc = 9801;
 		rType = 0;
 		vrLen = 2067;
 		vrLoc = 1807;
@@ -5078,7 +5078,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5088,7 +5088,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5098,7 +5098,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5108,7 +5108,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5118,7 +5118,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5128,7 +5128,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 40";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 587;
 		vrLoc = 1415;
@@ -5138,7 +5138,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5148,7 +5148,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5158,7 +5158,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5168,7 +5168,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5178,7 +5178,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5188,7 +5188,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5198,7 +5198,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5208,7 +5208,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5218,7 +5218,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1415;
@@ -5228,7 +5228,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5238,7 +5238,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5248,7 +5248,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5260,9 +5260,9 @@
 		path = "/Users/mike/projects/SunriseSunsetLib-ObjC/SolarEventCalculator.h";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1033, 616}}";
-			sepNavSelRange = "{1510, 0}";
-			sepNavVisRange = "{0, 2160}";
+			sepNavIntBoundsRect = "{{0, 0}, {1033, 658}}";
+			sepNavSelRange = "{1662, 0}";
+			sepNavVisRange = "{0, 2411}";
 		};
 	};
 	27F5B4BB0F11210300B57647 /* PBXTextBookmark */ = {
@@ -5280,7 +5280,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7626;
+		rLoc = 10937;
 		rType = 0;
 		vrLen = 2169;
 		vrLoc = 740;
@@ -5290,7 +5290,7 @@
 		fRef = 27F5B4750F106BFA00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 68";
 		rLen = 0;
-		rLoc = 7620;
+		rLoc = 9941;
 		rType = 0;
 		vrLen = 2002;
 		vrLoc = 1852;
@@ -5310,7 +5310,7 @@
 		fRef = 27F5B4750F106BFA00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 72";
 		rLen = 0;
-		rLoc = 7761;
+		rLoc = 10082;
 		rType = 0;
 		vrLen = 2043;
 		vrLoc = 1807;
@@ -5320,7 +5320,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7626;
+		rLoc = 10937;
 		rType = 0;
 		vrLen = 2169;
 		vrLoc = 740;
@@ -5350,7 +5350,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7626;
+		rLoc = 10937;
 		rType = 0;
 		vrLen = 2169;
 		vrLoc = 740;
@@ -5360,7 +5360,7 @@
 		fRef = 27F5B4750F106BFA00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 62";
 		rLen = 0;
-		rLoc = 7396;
+		rLoc = 9717;
 		rType = 0;
 		vrLen = 2043;
 		vrLoc = 1807;
@@ -5380,7 +5380,7 @@
 		fRef = 27F5B4750F106BFA00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 68";
 		rLen = 0;
-		rLoc = 7620;
+		rLoc = 9941;
 		rType = 0;
 		vrLen = 2002;
 		vrLoc = 1852;
@@ -5412,7 +5412,7 @@
 		fRef = 27F5B4CC0F1122AC00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 71";
 		rLen = 85;
-		rLoc = 7621;
+		rLoc = 9942;
 		rType = 0;
 		vrLen = 1930;
 		vrLoc = 1919;
@@ -5442,7 +5442,7 @@
 		fRef = 27F5B4CC0F1122AC00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 71";
 		rLen = 85;
-		rLoc = 7621;
+		rLoc = 9942;
 		rType = 0;
 		vrLen = 1930;
 		vrLoc = 1919;
@@ -5462,7 +5462,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5472,7 +5472,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5482,7 +5482,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5502,7 +5502,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5512,7 +5512,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5522,7 +5522,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5532,7 +5532,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5542,7 +5542,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5552,7 +5552,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5562,7 +5562,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5572,7 +5572,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5582,7 +5582,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5592,7 +5592,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5602,7 +5602,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5612,7 +5612,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 38";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 533;
 		vrLoc = 1415;
@@ -5632,7 +5632,7 @@
 		fRef = 27F5B4CC0F1122AC00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 71";
 		rLen = 85;
-		rLoc = 7621;
+		rLoc = 9942;
 		rType = 0;
 		vrLen = 2002;
 		vrLoc = 1852;
@@ -5652,7 +5652,7 @@
 		fRef = 27F5B4CC0F1122AC00B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 65";
 		rLen = 0;
-		rLoc = 7621;
+		rLoc = 9942;
 		rType = 0;
 		vrLen = 1764;
 		vrLoc = 1619;
@@ -5764,7 +5764,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 19";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 1123;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 0;
@@ -5804,7 +5804,7 @@
 		fRef = 27F5B3E90F10116300B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 45";
 		rLen = 0;
-		rLoc = 7626;
+		rLoc = 10937;
 		rType = 0;
 		vrLen = 2220;
 		vrLoc = 689;
@@ -5874,7 +5874,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 19";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 1123;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 0;
@@ -5894,7 +5894,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 19";
 		rLen = 0;
-		rLoc = 880;
+		rLoc = 1123;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 0;
@@ -6008,7 +6008,7 @@
 		fRef = 27F5B5160F11348A00B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 58";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 1983;
 		vrLoc = 1782;
@@ -6080,7 +6080,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 57";
 		rLen = 0;
-		rLoc = 7067;
+		rLoc = 9388;
 		rType = 0;
 		vrLen = 1937;
 		vrLoc = 1253;
@@ -6090,7 +6090,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 57";
 		rLen = 0;
-		rLoc = 7067;
+		rLoc = 9388;
 		rType = 0;
 		vrLen = 1937;
 		vrLoc = 1253;
@@ -6110,7 +6110,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 57";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1563;
 		vrLoc = 0;
@@ -6120,7 +6120,7 @@
 		fRef = 27F5B5440F11377500B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 56";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 803;
@@ -6130,7 +6130,7 @@
 		fRef = 27F5B5440F11377500B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 56";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 803;
@@ -6140,7 +6140,7 @@
 		fRef = 27F5B5440F11377500B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 56";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 803;
@@ -6162,7 +6162,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 64";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 803;
@@ -6172,7 +6172,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 64";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 803;
@@ -6182,7 +6182,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 64";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 803;
@@ -6222,7 +6222,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 57";
 		rLen = 0;
-		rLoc = 7093;
+		rLoc = 9414;
 		rType = 0;
 		vrLen = 1774;
 		vrLoc = 187;
@@ -6382,7 +6382,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 108";
 		rLen = 0;
-		rLoc = 8630;
+		rLoc = 10951;
 		rType = 0;
 		vrLen = 1717;
 		vrLoc = 2596;
@@ -6392,7 +6392,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 108";
 		rLen = 0;
-		rLoc = 8630;
+		rLoc = 10951;
 		rType = 0;
 		vrLen = 1717;
 		vrLoc = 2595;
@@ -6402,7 +6402,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 36";
 		rLen = 0;
-		rLoc = 2154;
+		rLoc = 2469;
 		rType = 0;
 		vrLen = 1581;
 		vrLoc = 0;
@@ -6412,7 +6412,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 105";
 		rLen = 58;
-		rLoc = 8466;
+		rLoc = 10787;
 		rType = 0;
 		vrLen = 1574;
 		vrLoc = 2738;
@@ -6422,7 +6422,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 105";
 		rLen = 58;
-		rLoc = 8466;
+		rLoc = 10787;
 		rType = 0;
 		vrLen = 1574;
 		vrLoc = 2738;
@@ -6432,7 +6432,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 36";
 		rLen = 0;
-		rLoc = 2154;
+		rLoc = 2469;
 		rType = 0;
 		vrLen = 1581;
 		vrLoc = 0;
@@ -6462,7 +6462,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 5968;
+		rLoc = 8289;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1534;
@@ -6472,7 +6472,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 5968;
+		rLoc = 8289;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 1534;
@@ -6492,7 +6492,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 5968;
+		rLoc = 8289;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1534;
@@ -6512,7 +6512,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 5968;
+		rLoc = 8289;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 1534;
@@ -6532,7 +6532,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 5968;
+		rLoc = 8289;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1534;
@@ -6542,7 +6542,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 55";
 		rLen = 0;
-		rLoc = 5968;
+		rLoc = 8289;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 1534;
@@ -6622,7 +6622,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6632,7 +6632,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6642,7 +6642,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6652,7 +6652,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 35";
 		rLen = 0;
-		rLoc = 2143;
+		rLoc = 2458;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 0;
@@ -6662,7 +6662,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 110";
 		rLen = 0;
-		rLoc = 8629;
+		rLoc = 10950;
 		rType = 0;
 		vrLen = 1685;
 		vrLoc = 3350;
@@ -6672,7 +6672,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 110";
 		rLen = 0;
-		rLoc = 8629;
+		rLoc = 10950;
 		rType = 0;
 		vrLen = 1685;
 		vrLoc = 3350;
@@ -6682,7 +6682,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 35";
 		rLen = 0;
-		rLoc = 2143;
+		rLoc = 2458;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 0;
@@ -6692,7 +6692,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 106";
 		rLen = 0;
-		rLoc = 8437;
+		rLoc = 10758;
 		rType = 0;
 		vrLen = 1876;
 		vrLoc = 3196;
@@ -6702,7 +6702,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6712,7 +6712,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6722,7 +6722,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6732,7 +6732,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6742,7 +6742,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6752,7 +6752,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6762,7 +6762,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 106";
 		rLen = 0;
-		rLoc = 8462;
+		rLoc = 10783;
 		rType = 0;
 		vrLen = 1901;
 		vrLoc = 3196;
@@ -6772,7 +6772,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6782,7 +6782,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6792,7 +6792,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6802,7 +6802,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 106";
 		rLen = 0;
-		rLoc = 8420;
+		rLoc = 10741;
 		rType = 0;
 		vrLen = 1806;
 		vrLoc = 3304;
@@ -6812,7 +6812,7 @@
 		fRef = 27F5B51B0F11349800B57647 /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 104";
 		rLen = 0;
-		rLoc = 8389;
+		rLoc = 10710;
 		rType = 0;
 		vrLen = 1704;
 		vrLoc = 3304;
@@ -6822,7 +6822,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6832,7 +6832,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6842,7 +6842,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6852,7 +6852,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6862,7 +6862,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6872,7 +6872,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 63";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6902,7 +6902,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 16";
 		rLen = 0;
-		rLoc = 610;
+		rLoc = 853;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 0;
@@ -6962,7 +6962,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 16";
 		rLen = 0;
-		rLoc = 610;
+		rLoc = 853;
 		rType = 0;
 		vrLen = 714;
 		vrLoc = 0;
@@ -6982,7 +6982,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 75";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -6992,7 +6992,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 75";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7002,7 +7002,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 75";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7012,7 +7012,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7022,7 +7022,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7032,7 +7032,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7042,7 +7042,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7052,7 +7052,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7062,7 +7062,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7072,7 +7072,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 26";
 		rLen = 0;
-		rLoc = 1348;
+		rLoc = 1663;
 		rType = 0;
 		vrLen = 1661;
 		vrLoc = 0;
@@ -7122,7 +7122,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 35";
 		rLen = 0;
-		rLoc = 2143;
+		rLoc = 2458;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 0;
@@ -7142,7 +7142,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 26";
 		rLen = 0;
-		rLoc = 1348;
+		rLoc = 1663;
 		rType = 0;
 		vrLen = 1661;
 		vrLoc = 0;
@@ -7272,7 +7272,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7282,7 +7282,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7292,7 +7292,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7302,7 +7302,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7312,7 +7312,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7322,7 +7322,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7342,7 +7342,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7352,7 +7352,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7362,7 +7362,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7402,7 +7402,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7412,7 +7412,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7422,7 +7422,7 @@
 		fRef = 27F5B5550F11397400B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 79";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7442,7 +7442,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 18";
 		rLen = 0;
-		rLoc = 610;
+		rLoc = 853;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 0;
@@ -7482,7 +7482,7 @@
 		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
 		name = "SolarEventCalculatorTest.h: 18";
 		rLen = 0;
-		rLoc = 610;
+		rLoc = 853;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 0;
@@ -7646,7 +7646,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7656,7 +7656,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7666,7 +7666,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7856,7 +7856,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 31";
 		rLen = 0;
-		rLoc = 1507;
+		rLoc = 1822;
 		rType = 0;
 		vrLen = 2017;
 		vrLoc = 0;
@@ -7866,7 +7866,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 97";
 		rLen = 469;
-		rLoc = 5987;
+		rLoc = 8308;
 		rType = 0;
 		vrLen = 1945;
 		vrLoc = 4086;
@@ -7876,7 +7876,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 97";
 		rLen = 469;
-		rLoc = 5987;
+		rLoc = 8308;
 		rType = 0;
 		vrLen = 1945;
 		vrLoc = 4086;
@@ -7886,7 +7886,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 31";
 		rLen = 0;
-		rLoc = 1507;
+		rLoc = 1822;
 		rType = 0;
 		vrLen = 2017;
 		vrLoc = 0;
@@ -7896,7 +7896,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 97";
 		rLen = 469;
-		rLoc = 5987;
+		rLoc = 8308;
 		rType = 0;
 		vrLen = 1945;
 		vrLoc = 4086;
@@ -7906,7 +7906,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7916,7 +7916,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7926,7 +7926,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7936,7 +7936,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 99";
 		rLen = 0;
-		rLoc = 6261;
+		rLoc = 8582;
 		rType = 0;
 		vrLen = 2518;
 		vrLoc = 4086;
@@ -7946,7 +7946,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7956,7 +7956,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7966,7 +7966,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7976,7 +7976,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7986,7 +7986,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -7996,7 +7996,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8006,7 +8006,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8016,7 +8016,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8026,7 +8026,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 95";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8036,7 +8036,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 103";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8046,7 +8046,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 103";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8056,7 +8056,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 103";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8156,7 +8156,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 107";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8166,7 +8166,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 107";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8176,7 +8176,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 107";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8186,7 +8186,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 111";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8196,7 +8196,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 111";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8206,7 +8206,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 111";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8296,7 +8296,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 33";
 		rLen = 0;
-		rLoc = 1510;
+		rLoc = 1825;
 		rType = 0;
 		vrLen = 2160;
 		vrLoc = 0;
@@ -8336,7 +8336,7 @@
 		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
 		name = "SolarEventCalculator.h: 33";
 		rLen = 0;
-		rLoc = 1510;
+		rLoc = 1825;
 		rType = 0;
 		vrLen = 2160;
 		vrLoc = 0;
@@ -8346,7 +8346,7 @@
 		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
 		name = "SolarEventCalculator.m: 106";
 		rLen = 0;
-		rLoc = 6267;
+		rLoc = 8588;
 		rType = 0;
 		vrLen = 2638;
 		vrLoc = 3622;
@@ -8356,7 +8356,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 111";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8366,7 +8366,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 111";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8376,7 +8376,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 111";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8386,7 +8386,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 126";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8396,7 +8396,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 126";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8406,7 +8406,7 @@
 		fRef = 27F5B62F0F143FD100B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 126";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8424,9 +8424,9 @@
 		path = "/Users/mike/projects/SunriseSunsetLib-ObjC/SolarEventCalculatorTest.m";
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1128, 2226}}";
-			sepNavSelRange = "{6174, 0}";
-			sepNavVisRange = "{4684, 2474}";
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 2646}}";
+			sepNavSelRange = "{8048, 0}";
+			sepNavVisRange = "{6434, 2051}";
 		};
 	};
 	27F5B69A0F144F2C00B57647 /* PBXTextBookmark */ = {
@@ -8434,7 +8434,7 @@
 		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 133";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8444,7 +8444,7 @@
 		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 133";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8454,7 +8454,7 @@
 		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
 		name = "SolarEventCalculatorTest.m: 133";
 		rLen = 0;
-		rLoc = 7368;
+		rLoc = 10679;
 		rType = 0;
 		vrLen = 339;
 		vrLoc = 930;
@@ -8495,6 +8495,743 @@
 		rType = 0;
 		vrLen = 2474;
 		vrLoc = 4684;
+	};
+	27F5B6A10F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
+		name = "SolarEventCalculator.h: 30";
+		rLen = 0;
+		rLoc = 1663;
+		rType = 0;
+		vrLen = 2312;
+		vrLoc = 0;
+	};
+	27F5B6A20F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 107";
+		rLen = 0;
+		rLoc = 6517;
+		rType = 0;
+		vrLen = 2961;
+		vrLoc = 4418;
+	};
+	27F5B6A30F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
+		name = "SolarEventCalculatorTest.h: 21";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 0;
+	};
+	27F5B6A40F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 124";
+		rLen = 40;
+		rLoc = 7195;
+		rType = 0;
+		vrLen = 2208;
+		vrLoc = 6432;
+	};
+	27F5B6A50F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 111";
+		rLen = 0;
+		rLoc = 6174;
+		rType = 0;
+		vrLen = 2307;
+		vrLoc = 4635;
+	};
+	27F5B6A60F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 103";
+		rLen = 161;
+		rLoc = 5968;
+		rType = 0;
+		vrLen = 2962;
+		vrLoc = 4417;
+	};
+	27F5B6A70F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
+		name = "SolarEventCalculator.h: 30";
+		rLen = 0;
+		rLoc = 1663;
+		rType = 0;
+		vrLen = 2312;
+		vrLoc = 0;
+	};
+	27F5B6A80F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 107";
+		rLen = 0;
+		rLoc = 6517;
+		rType = 0;
+		vrLen = 2961;
+		vrLoc = 4418;
+	};
+	27F5B6A90F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 124";
+		rLen = 40;
+		rLoc = 7195;
+		rType = 0;
+		vrLen = 2208;
+		vrLoc = 6432;
+	};
+	27F5B6AA0F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
+		name = "SolarEventCalculatorTest.h: 21";
+		rLen = 0;
+		rLoc = 690;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 0;
+	};
+	27F5B6AB0F1588B800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 119";
+		rLen = 0;
+		rLoc = 6907;
+		rType = 0;
+		vrLen = 2529;
+		vrLoc = 6432;
+	};
+	27F5B6AD0F158A4C00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 123";
+		rLen = 0;
+		rLoc = 6913;
+		rType = 0;
+		vrLen = 2287;
+		vrLoc = 6076;
+	};
+	27F5B6B00F158A6900B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6B10F158A6900B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6B20F158A6900B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6B30F158A6E00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 135";
+		rLen = 0;
+		rLoc = 7672;
+		rType = 0;
+		vrLen = 2593;
+		vrLoc = 6076;
+	};
+	27F5B6B50F158B7500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6B60F158B7500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6B70F158B7500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6B80F158B7C00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 135";
+		rLen = 0;
+		rLoc = 7672;
+		rType = 0;
+		vrLen = 2593;
+		vrLoc = 6076;
+	};
+	27F5B6B90F158FB800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 138";
+		rLen = 0;
+		rLoc = 9744;
+		rType = 0;
+		vrLen = 2593;
+		vrLoc = 6076;
+	};
+	27F5B6BA0F158FB800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 107";
+		rLen = 0;
+		rLoc = 6517;
+		rType = 0;
+		vrLen = 2961;
+		vrLoc = 4418;
+	};
+	27F5B6BB0F158FB800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 138";
+		rLen = 0;
+		rLoc = 9744;
+		rType = 0;
+		vrLen = 2593;
+		vrLoc = 6076;
+	};
+	27F5B6BC0F158FB800B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 118";
+		rLen = 0;
+		rLoc = 7380;
+		rType = 0;
+		vrLen = 2141;
+		vrLoc = 6522;
+	};
+	27F5B6BE0F15910E00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
+		name = "SolarEventCalculator.h: 30";
+		rLen = 0;
+		rLoc = 1596;
+		rType = 0;
+		vrLen = 2403;
+		vrLoc = 0;
+	};
+	27F5B6BF0F15910E00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 116";
+		rLen = 92;
+		rLoc = 6892;
+		rType = 0;
+		vrLen = 2160;
+		vrLoc = 6522;
+	};
+	27F5B6C00F15910E00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 116";
+		rLen = 92;
+		rLoc = 6892;
+		rType = 0;
+		vrLen = 2160;
+		vrLoc = 6522;
+	};
+	27F5B6C10F15910E00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
+		name = "SolarEventCalculator.h: 30";
+		rLen = 0;
+		rLoc = 1596;
+		rType = 0;
+		vrLen = 2403;
+		vrLoc = 0;
+	};
+	27F5B6C20F15910E00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 116";
+		rLen = 92;
+		rLoc = 6892;
+		rType = 0;
+		vrLen = 2158;
+		vrLoc = 6522;
+	};
+	27F5B6C50F15914C00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 121";
+		rLen = 0;
+		rLoc = 7313;
+		rType = 0;
+		vrLen = 1948;
+		vrLoc = 6522;
+	};
+	27F5B6C70F1591E100B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6C80F1591E100B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6C90F1591E100B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6CB0F1591EC00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6CC0F1591EC00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6CD0F1591EC00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 157";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6D30F15932900B57647 /* SolarEventCalculatorTest.m */ = {
+		isa = PBXFileReference;
+		name = SolarEventCalculatorTest.m;
+		path = "/Users/mike/projects/SunriseSunsetLib-ObjC/SolarEventCalculatorTest.m";
+		sourceTree = "<absolute>";
+	};
+	27F5B6D40F15932900B57647 /* SolarEventCalculatorTest.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SolarEventCalculatorTest.m;
+		path = "/Users/mike/projects/SunriseSunsetLib-ObjC/SolarEventCalculatorTest.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {984, 4004}}";
+			sepNavSelRange = "{10675, 0}";
+			sepNavVisRange = "{930, 339}";
+		};
+	};
+	27F5B6D70F15934500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6D40F15932900B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 179";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6D80F15934500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6D40F15932900B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 179";
+		rLen = 0;
+		rLoc = 10679;
+		rType = 0;
+		vrLen = 339;
+		vrLoc = 930;
+	};
+	27F5B6D90F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
+		name = "SolarEventCalculatorTest.h: 23";
+		rLen = 0;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 0;
+	};
+	27F5B6DA0F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 120";
+		rLen = 0;
+		rLoc = 7313;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 6517;
+	};
+	27F5B6DB0F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6D30F15932900B57647 /* SolarEventCalculatorTest.m */;
+		rLen = 1;
+		rLoc = 158;
+		rType = 1;
+	};
+	27F5B6DC0F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 120";
+		rLen = 0;
+		rLoc = 7313;
+		rType = 0;
+		vrLen = 2214;
+		vrLoc = 6522;
+	};
+	27F5B6DD0F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 144";
+		rLen = 36;
+		rLoc = 8474;
+		rType = 0;
+		vrLen = 2075;
+		vrLoc = 6432;
+	};
+	27F5B6DE0F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
+		name = "SolarEventCalculatorTest.h: 23";
+		rLen = 0;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 1041;
+		vrLoc = 0;
+	};
+	27F5B6DF0F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6980F144F1A00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 143";
+		rLen = 0;
+		rLoc = 8470;
+		rType = 0;
+		vrLen = 2051;
+		vrLoc = 6434;
+	};
+	27F5B6E00F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 120";
+		rLen = 0;
+		rLoc = 7313;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 6517;
+	};
+	27F5B6E10F15934F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6D40F15932900B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 146";
+		rLen = 0;
+		rLoc = 8264;
+		rType = 0;
+		vrLen = 2203;
+		vrLoc = 7192;
+	};
+	27F5B6E50F15989F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
+		name = "SolarEventCalculatorTest.h: 25";
+		rLen = 0;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 0;
+	};
+	27F5B6E60F15989F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6D40F15932900B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 166";
+		rLen = 0;
+		rLoc = 9260;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 8268;
+	};
+	27F5B6E70F15989F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6D40F15932900B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 162";
+		rLen = 45;
+		rLoc = 8999;
+		rType = 0;
+		vrLen = 2282;
+		vrLoc = 7195;
+	};
+	27F5B6E80F15989F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B3D80F10103A00B57647 /* SolarEventCalculatorTest.h */;
+		name = "SolarEventCalculatorTest.h: 25";
+		rLen = 0;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 1130;
+		vrLoc = 0;
+	};
+	27F5B6E90F15989F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6D40F15932900B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 166";
+		rLen = 0;
+		rLoc = 9260;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 8268;
+	};
+	27F5B6EA0F15989F00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 127";
+		rLen = 0;
+		rLoc = 7620;
+		rType = 0;
+		vrLen = 2012;
+		vrLoc = 6402;
+	};
+	27F5B6EC0F15998500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 127";
+		rLen = 0;
+		rLoc = 8065;
+		rType = 0;
+		vrLen = 2187;
+		vrLoc = 6402;
+	};
+	27F5B6ED0F159ADE00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 130";
+		rLen = 0;
+		rLoc = 8065;
+		rType = 0;
+		vrLen = 2277;
+		vrLoc = 6402;
+	};
+	27F5B6F00F159B7C00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 130";
+		rLen = 0;
+		rLoc = 8026;
+		rType = 0;
+		vrLen = 2126;
+		vrLoc = 6402;
+	};
+	27F5B6F50F159BCD00B57647 /* SolarEventCalculatorTest.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SolarEventCalculatorTest.m;
+		path = "/Users/mike/projects/SunriseSunsetLib-ObjC/SolarEventCalculatorTest.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1128, 3164}}";
+			sepNavSelRange = "{9620, 0}";
+			sepNavVisRange = "{8474, 1882}";
+		};
+	};
+	27F5B6F90F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6F50F159BCD00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 174";
+		rLen = 0;
+		rLoc = 9620;
+		rType = 0;
+		vrLen = 1882;
+		vrLoc = 8474;
+	};
+	27F5B6FA0F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
+		name = "SolarEventCalculator.h: 31";
+		rLen = 0;
+		rLoc = 1662;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 0;
+	};
+	27F5B6FB0F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 124";
+		rLen = 66;
+		rLoc = 7384;
+		rType = 0;
+		vrLen = 2348;
+		vrLoc = 6247;
+	};
+	27F5B6FC0F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 133";
+		rLen = 0;
+		rLoc = 8285;
+		rType = 0;
+		vrLen = 2194;
+		vrLoc = 6402;
+	};
+	27F5B6FD0F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6F50F159BCD00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 174";
+		rLen = 0;
+		rLoc = 9620;
+		rType = 0;
+		vrLen = 1882;
+		vrLoc = 8474;
+	};
+	27F5B6FE0F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 124";
+		rLen = 66;
+		rLoc = 7384;
+		rType = 0;
+		vrLen = 2349;
+		vrLoc = 6247;
+	};
+	27F5B6FF0F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
+		name = "SolarEventCalculator.h: 31";
+		rLen = 0;
+		rLoc = 1662;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 0;
+	};
+	27F5B7000F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 124";
+		rLen = 66;
+		rLoc = 7384;
+		rType = 0;
+		vrLen = 2348;
+		vrLoc = 6247;
+	};
+	27F5B7010F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B4BA0F1120F800B57647 /* SolarEventCalculator.h */;
+		name = "SolarEventCalculator.h: 31";
+		rLen = 0;
+		rLoc = 1662;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 0;
+	};
+	27F5B7020F159C5500B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 132";
+		rLen = 0;
+		rLoc = 8200;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 6675;
+	};
+	27F5B7040F159D7A00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6F50F159BCD00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 174";
+		rLen = 0;
+		rLoc = 9620;
+		rType = 0;
+		vrLen = 1882;
+		vrLoc = 8474;
+	};
+	27F5B7050F159D7A00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 132";
+		rLen = 0;
+		rLoc = 8200;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 6675;
+	};
+	27F5B7060F159D7A00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 132";
+		rLen = 0;
+		rLoc = 8200;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 6675;
+	};
+	27F5B7070F159D7A00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 27F5B6F50F159BCD00B57647 /* SolarEventCalculatorTest.m */;
+		name = "SolarEventCalculatorTest.m: 174";
+		rLen = 0;
+		rLoc = 9620;
+		rType = 0;
+		vrLen = 1882;
+		vrLoc = 8474;
+	};
+	27F5B7080F159D7A00B57647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */;
+		name = "SolarEventCalculator.m: 131";
+		rLen = 0;
+		rLoc = 7889;
+		rType = 0;
+		vrLen = 2294;
+		vrLoc = 6725;
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -9426,6 +10163,77 @@
 			27F5B69E0F144F3000B57647 /* PBXTextBookmark */ = 27F5B69E0F144F3000B57647 /* PBXTextBookmark */;
 			27F5B69F0F144F3000B57647 /* PBXTextBookmark */ = 27F5B69F0F144F3000B57647 /* PBXTextBookmark */;
 			27F5B6A00F144F3000B57647 /* PBXTextBookmark */ = 27F5B6A00F144F3000B57647 /* PBXTextBookmark */;
+			27F5B6A10F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A10F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A20F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A20F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A30F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A30F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A40F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A40F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A50F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A50F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A60F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A60F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A70F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A70F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A80F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A80F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6A90F1588B800B57647 /* PBXTextBookmark */ = 27F5B6A90F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6AA0F1588B800B57647 /* PBXTextBookmark */ = 27F5B6AA0F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6AB0F1588B800B57647 /* PBXTextBookmark */ = 27F5B6AB0F1588B800B57647 /* PBXTextBookmark */;
+			27F5B6AD0F158A4C00B57647 /* PBXTextBookmark */ = 27F5B6AD0F158A4C00B57647 /* PBXTextBookmark */;
+			27F5B6B00F158A6900B57647 /* PBXTextBookmark */ = 27F5B6B00F158A6900B57647 /* PBXTextBookmark */;
+			27F5B6B10F158A6900B57647 /* PBXTextBookmark */ = 27F5B6B10F158A6900B57647 /* PBXTextBookmark */;
+			27F5B6B20F158A6900B57647 /* PBXTextBookmark */ = 27F5B6B20F158A6900B57647 /* PBXTextBookmark */;
+			27F5B6B30F158A6E00B57647 /* PBXTextBookmark */ = 27F5B6B30F158A6E00B57647 /* PBXTextBookmark */;
+			27F5B6B50F158B7500B57647 /* PBXTextBookmark */ = 27F5B6B50F158B7500B57647 /* PBXTextBookmark */;
+			27F5B6B60F158B7500B57647 /* PBXTextBookmark */ = 27F5B6B60F158B7500B57647 /* PBXTextBookmark */;
+			27F5B6B70F158B7500B57647 /* PBXTextBookmark */ = 27F5B6B70F158B7500B57647 /* PBXTextBookmark */;
+			27F5B6B80F158B7C00B57647 /* PBXTextBookmark */ = 27F5B6B80F158B7C00B57647 /* PBXTextBookmark */;
+			27F5B6B90F158FB800B57647 /* PBXTextBookmark */ = 27F5B6B90F158FB800B57647 /* PBXTextBookmark */;
+			27F5B6BA0F158FB800B57647 /* PBXTextBookmark */ = 27F5B6BA0F158FB800B57647 /* PBXTextBookmark */;
+			27F5B6BB0F158FB800B57647 /* PBXTextBookmark */ = 27F5B6BB0F158FB800B57647 /* PBXTextBookmark */;
+			27F5B6BC0F158FB800B57647 /* PBXTextBookmark */ = 27F5B6BC0F158FB800B57647 /* PBXTextBookmark */;
+			27F5B6BE0F15910E00B57647 /* PBXTextBookmark */ = 27F5B6BE0F15910E00B57647 /* PBXTextBookmark */;
+			27F5B6BF0F15910E00B57647 /* PBXTextBookmark */ = 27F5B6BF0F15910E00B57647 /* PBXTextBookmark */;
+			27F5B6C00F15910E00B57647 /* PBXTextBookmark */ = 27F5B6C00F15910E00B57647 /* PBXTextBookmark */;
+			27F5B6C10F15910E00B57647 /* PBXTextBookmark */ = 27F5B6C10F15910E00B57647 /* PBXTextBookmark */;
+			27F5B6C20F15910E00B57647 /* PBXTextBookmark */ = 27F5B6C20F15910E00B57647 /* PBXTextBookmark */;
+			27F5B6C50F15914C00B57647 /* PBXTextBookmark */ = 27F5B6C50F15914C00B57647 /* PBXTextBookmark */;
+			27F5B6C70F1591E100B57647 /* PBXTextBookmark */ = 27F5B6C70F1591E100B57647 /* PBXTextBookmark */;
+			27F5B6C80F1591E100B57647 /* PBXTextBookmark */ = 27F5B6C80F1591E100B57647 /* PBXTextBookmark */;
+			27F5B6C90F1591E100B57647 /* PBXTextBookmark */ = 27F5B6C90F1591E100B57647 /* PBXTextBookmark */;
+			27F5B6CB0F1591EC00B57647 /* PBXTextBookmark */ = 27F5B6CB0F1591EC00B57647 /* PBXTextBookmark */;
+			27F5B6CC0F1591EC00B57647 /* PBXTextBookmark */ = 27F5B6CC0F1591EC00B57647 /* PBXTextBookmark */;
+			27F5B6CD0F1591EC00B57647 /* PBXTextBookmark */ = 27F5B6CD0F1591EC00B57647 /* PBXTextBookmark */;
+			27F5B6D70F15934500B57647 /* PBXTextBookmark */ = 27F5B6D70F15934500B57647 /* PBXTextBookmark */;
+			27F5B6D80F15934500B57647 /* PBXTextBookmark */ = 27F5B6D80F15934500B57647 /* PBXTextBookmark */;
+			27F5B6D90F15934F00B57647 /* PBXTextBookmark */ = 27F5B6D90F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6DA0F15934F00B57647 /* PBXTextBookmark */ = 27F5B6DA0F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6DB0F15934F00B57647 /* PBXTextBookmark */ = 27F5B6DB0F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6DC0F15934F00B57647 /* PBXTextBookmark */ = 27F5B6DC0F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6DD0F15934F00B57647 /* PBXTextBookmark */ = 27F5B6DD0F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6DE0F15934F00B57647 /* PBXTextBookmark */ = 27F5B6DE0F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6DF0F15934F00B57647 /* PBXTextBookmark */ = 27F5B6DF0F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6E00F15934F00B57647 /* PBXTextBookmark */ = 27F5B6E00F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6E10F15934F00B57647 /* PBXTextBookmark */ = 27F5B6E10F15934F00B57647 /* PBXTextBookmark */;
+			27F5B6E50F15989F00B57647 /* PBXTextBookmark */ = 27F5B6E50F15989F00B57647 /* PBXTextBookmark */;
+			27F5B6E60F15989F00B57647 /* PBXTextBookmark */ = 27F5B6E60F15989F00B57647 /* PBXTextBookmark */;
+			27F5B6E70F15989F00B57647 /* PBXTextBookmark */ = 27F5B6E70F15989F00B57647 /* PBXTextBookmark */;
+			27F5B6E80F15989F00B57647 /* PBXTextBookmark */ = 27F5B6E80F15989F00B57647 /* PBXTextBookmark */;
+			27F5B6E90F15989F00B57647 /* PBXTextBookmark */ = 27F5B6E90F15989F00B57647 /* PBXTextBookmark */;
+			27F5B6EA0F15989F00B57647 /* PBXTextBookmark */ = 27F5B6EA0F15989F00B57647 /* PBXTextBookmark */;
+			27F5B6EC0F15998500B57647 /* PBXTextBookmark */ = 27F5B6EC0F15998500B57647 /* PBXTextBookmark */;
+			27F5B6ED0F159ADE00B57647 /* PBXTextBookmark */ = 27F5B6ED0F159ADE00B57647 /* PBXTextBookmark */;
+			27F5B6F00F159B7C00B57647 /* PBXTextBookmark */ = 27F5B6F00F159B7C00B57647 /* PBXTextBookmark */;
+			27F5B6F90F159C5500B57647 /* PBXTextBookmark */ = 27F5B6F90F159C5500B57647 /* PBXTextBookmark */;
+			27F5B6FA0F159C5500B57647 /* PBXTextBookmark */ = 27F5B6FA0F159C5500B57647 /* PBXTextBookmark */;
+			27F5B6FB0F159C5500B57647 /* PBXTextBookmark */ = 27F5B6FB0F159C5500B57647 /* PBXTextBookmark */;
+			27F5B6FC0F159C5500B57647 /* PBXTextBookmark */ = 27F5B6FC0F159C5500B57647 /* PBXTextBookmark */;
+			27F5B6FD0F159C5500B57647 /* PBXTextBookmark */ = 27F5B6FD0F159C5500B57647 /* PBXTextBookmark */;
+			27F5B6FE0F159C5500B57647 /* PBXTextBookmark */ = 27F5B6FE0F159C5500B57647 /* PBXTextBookmark */;
+			27F5B6FF0F159C5500B57647 /* PBXTextBookmark */ = 27F5B6FF0F159C5500B57647 /* PBXTextBookmark */;
+			27F5B7000F159C5500B57647 /* PBXTextBookmark */ = 27F5B7000F159C5500B57647 /* PBXTextBookmark */;
+			27F5B7010F159C5500B57647 /* PBXTextBookmark */ = 27F5B7010F159C5500B57647 /* PBXTextBookmark */;
+			27F5B7020F159C5500B57647 /* PBXTextBookmark */ = 27F5B7020F159C5500B57647 /* PBXTextBookmark */;
+			27F5B7040F159D7A00B57647 /* PBXTextBookmark */ = 27F5B7040F159D7A00B57647 /* PBXTextBookmark */;
+			27F5B7050F159D7A00B57647 /* PBXTextBookmark */ = 27F5B7050F159D7A00B57647 /* PBXTextBookmark */;
+			27F5B7060F159D7A00B57647 /* PBXTextBookmark */ = 27F5B7060F159D7A00B57647 /* PBXTextBookmark */;
+			27F5B7070F159D7A00B57647 /* PBXTextBookmark */ = 27F5B7070F159D7A00B57647 /* PBXTextBookmark */;
+			27F5B7080F159D7A00B57647 /* PBXTextBookmark */ = 27F5B7080F159D7A00B57647 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 279D65790F06D976009FB4CF /* Source Control */;
 		userBuildSettings = {

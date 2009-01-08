@@ -17,6 +17,12 @@
 - (void) testGetRightAscensionForSunset;
 - (void) testGetCosineSunLocalHourForSunrise;
 - (void) testGetCosineSunLocalHourForSunset;
+- (void) testGetLocalMeanTimeForSunset;
+- (void) testGetLocalMeanTimeForSunrise;
+- (void) testGetLocalTimeForSunrise;
+- (void) testGetLocalTimeForSunset;
+- (void) testGetLocalTimeAsStringForSunrise;
+- (void) testGetLocalTimeAsStringForSunset;
 
 - (void) testGetArcCosineFor;
 - (void) testConvertRadiansToDegrees;

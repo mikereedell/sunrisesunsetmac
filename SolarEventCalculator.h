@@ -26,7 +26,10 @@
 - (NSDecimalNumber *) getRightAscension:(NSDecimalNumber *)sunTrueLong;
 - (NSDecimalNumber *) getCosineSunLocalHour:(NSDecimalNumber *)sunTrueLongitude forZenith:(NSDecimalNumber *)zenith;
 - (NSDecimalNumber *) getSunLocalHour:(NSDecimalNumber *)sunTrueLongitude forZenith:(NSDecimalNumber *)zenith forSunrise:(BOOL)isSunrise;
-    
+- (NSDecimalNumber *) getLocalMeanTime:(NSDecimalNumber *) sunTrueLongitude longitudeHour:(NSDecimalNumber *)longHour sunLocalHour:(NSDecimalNumber *)localHour;
+- (NSDecimalNumber *) getLocalTime:(NSDecimalNumber *)localMeanTime forDate:(NSDate *)date;
+- (NSString *) getLocalTimeAsString:(NSDecimalNumber *)localTime;
+
 //Utility methods
 - (NSDecimalNumber *) getDayOfYearForDate:(NSDate *) date;
 - (NSDecimalNumber *) getSinOfSunDeclination:(NSDecimalNumber *)sunTrueLongitude;
