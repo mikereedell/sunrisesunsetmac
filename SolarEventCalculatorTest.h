@@ -23,6 +23,8 @@
 - (void) testGetLocalTimeForSunset;
 - (void) testGetLocalTimeAsStringForSunrise;
 - (void) testGetLocalTimeAsStringForSunset;
+- (void) testComputeSunriseTimeForSolarZenith;
+- (void) testComputeSunsetTimeForSolarZenith;
 
 - (void) testGetArcCosineFor;
 - (void) testConvertRadiansToDegrees;

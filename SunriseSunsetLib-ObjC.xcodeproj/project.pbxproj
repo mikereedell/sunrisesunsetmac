@@ -16,6 +16,7 @@
 		279D668D0F082E31009FB4CF /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 279D65A50F07D165009FB4CF /* Location.m */; };
 		279D668E0F082E34009FB4CF /* SolarEventCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */; };
 		279D668F0F082E39009FB4CF /* SunriseSunsetCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 279D65930F06DA63009FB4CF /* SunriseSunsetCalculator.m */; };
+		27F5B7940F16E43100B57647 /* SunriseSunsetCalculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F5B7930F16E43100B57647 /* SunriseSunsetCalculatorTest.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -37,6 +38,8 @@
 		279D65F70F07EC9E009FB4CF /* SolarEventCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolarEventCalculator.m; sourceTree = "<group>"; };
 		279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarEventCalculatorTest.h; sourceTree = "<group>"; };
 		279D668B0F082B57009FB4CF /* SolarEventCalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolarEventCalculatorTest.m; sourceTree = "<group>"; };
+		27F5B7920F16E43100B57647 /* SunriseSunsetCalculatorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunriseSunsetCalculatorTest.h; sourceTree = "<group>"; };
+		27F5B7930F16E43100B57647 /* SunriseSunsetCalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunriseSunsetCalculatorTest.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -110,6 +113,8 @@
 			children = (
 				279D668A0F082B57009FB4CF /* SolarEventCalculatorTest.h */,
 				279D668B0F082B57009FB4CF /* SolarEventCalculatorTest.m */,
+				27F5B7920F16E43100B57647 /* SunriseSunsetCalculatorTest.h */,
+				27F5B7930F16E43100B57647 /* SunriseSunsetCalculatorTest.m */,
 			);
 			name = UnitTests;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				279D668E0F082E34009FB4CF /* SolarEventCalculator.m in Sources */,
 				279D668D0F082E31009FB4CF /* Location.m in Sources */,
 				279D668C0F082B57009FB4CF /* SolarEventCalculatorTest.m in Sources */,
+				27F5B7940F16E43100B57647 /* SunriseSunsetCalculatorTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

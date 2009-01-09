@@ -8,12 +8,23 @@
     return self;
 }
 
-- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunriseDate:(NSCalendar *)date {
-    return nil;
+- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunriseDate:(NSDate *)date {
+    return [self computeSolarEventForSolarZenith:solarZenith sunsetDate:date isSunrise:true];
 }
 
-- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSCalendar *)date {
-    return nil;
+- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date {
+    NSLog(@"SolarZenith");
+    NSLog([solarZenith stringValue]);
+    return [self computeSolarEventForSolarZenith:solarZenith sunsetDate:date isSunrise:false];
+}
+
+- (NSString *) computeSolarEventForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date isSunrise:(BOOL)isSunrise {
+    NSDecimalNumber *longitudeHour = [self getLongitudeHourForDate:date sunrise:isSunrise];
+    NSDecimalNumber *meanAnomaly = [self getMeanAnomaly:longitudeHour];
+    NSDecimalNumber *sunTrueLongitude = [self getSunTrueLongitude:meanAnomaly];
+    NSDecimalNumber *sunLocalHour = [self getSunLocalHour:sunTrueLongitude forZenith:solarZenith forSunrise:isSunrise];
+    NSDecimalNumber *localMeanTime = [self getLocalMeanTime:sunTrueLongitude longitudeHour:longitudeHour sunLocalHour:sunLocalHour];
+    return [self getLocalTimeAsString:[self getLocalTime:localMeanTime forDate:date]];    
 }
 
 - (NSDecimalNumber *) getBaseLongitudeHour {
@@ -30,7 +41,7 @@
     NSDecimalNumber *dividend = [offset decimalNumberBySubtracting:[self getBaseLongitudeHour]];
     NSDecimalNumber *addend = [self divide:dividend by:[NSDecimalNumber decimalNumberWithString:@"24"]];
     
-    NSDecimalNumber *longHour = [[self getDayOfYearForDate:date] decimalNumberByAdding:addend withBehavior:[self getHandler]];
+    NSDecimalNumber *longHour = [[self getDayOfYearForDate:date] decimalNumberByAdding:addend withBehavior:[self getHandler:(short)4]];
     return longHour;
 }
 
@@ -125,14 +136,10 @@
     NSArray *localTimeParts = [[localTime stringValue] componentsSeparatedByString:@"."];
     NSString *hour = (NSString *)[localTimeParts objectAtIndex:0];
     hour = ([hour length] == 1) ? [@"0" stringByAppendingString:hour] : hour;
-    
-    
+        
     NSDecimalNumber *minutes = [NSDecimalNumber decimalNumberWithString:(NSString *)[localTimeParts objectAtIndex:1]];
-    minutes = [[NSDecimalNumber zero] decimalNumberBySubtracting:minutes];
-    NSLog(@"Minutes:");
-    NSLog([minutes stringValue]);
-    minutes = [self decimalNumberFromDouble:round([minutes doubleValue] * 60)];
-    NSLog([minutes stringValue]);    
+    minutes = [minutes decimalNumberByMultiplyingByPowerOf10:(short)-4];
+    minutes = [minutes decimalNumberByMultiplyingBy:[NSDecimalNumber decimalNumberWithString:@"60"] withBehavior:[self getHandler:(short)0]];
     
     NSString *minString = ([minutes intValue] < 10) ? [@"0" stringByAppendingString:[minutes stringValue]] : [minutes stringValue];
     return [[hour stringByAppendingString:@":"] stringByAppendingString:minString];
@@ -183,8 +190,8 @@
     return [dividend decimalNumberByDividingBy: divisor];
 }
 
-- (NSDecimalNumberHandler *) getHandler {
-    return [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundBankers scale:(short)4 raiseOnExactness:false raiseOnOverflow:false raiseOnUnderflow:false raiseOnDivideByZero:true];
+- (NSDecimalNumberHandler *) getHandler:(short)scale {
+    return [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundBankers scale:scale raiseOnExactness:false raiseOnOverflow:false raiseOnUnderflow:false raiseOnDivideByZero:true];
 }
 
 - (NSDecimalNumber *) decimalNumberFromDouble:(double)number {
@@ -192,7 +199,7 @@
 }
 
 - (NSDecimalNumber *) setScale:(NSDecimalNumber *)number {
-    return [number decimalNumberByMultiplyingBy:[NSDecimalNumber one] withBehavior:[self getHandler]];
+    return [number decimalNumberByMultiplyingBy:[NSDecimalNumber one] withBehavior:[self getHandler:(short)4]];
 }
 
 @end

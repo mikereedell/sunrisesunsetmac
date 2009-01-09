@@ -5,7 +5,6 @@
 - (void) testGetBaseLongitudeHour {
     NSDecimalNumber *expectedBaseLongHour = [NSDecimalNumber decimalNumberWithString:@"-5.0523"];
     NSDecimalNumber *actualBaseLongHour = [[self getCalculator] getBaseLongitudeHour];
-    
     STAssertEquals(NSOrderedSame, [expectedBaseLongHour compare:actualBaseLongHour], [self getAssertMessage:expectedBaseLongHour actual:actualBaseLongHour], nil);
 }
 
@@ -156,15 +155,15 @@
 
     NSDecimalNumber *expectedLocalTime = [NSDecimalNumber decimalNumberWithString:@"18.4668"];
     NSDecimalNumber *actualLocalTime = [calc getLocalTime:localMeanTime forDate:date];
-    STAssertEquals(NSOrderedSame, [expectedLocalTime compare:actualLocalTime], [actualLocalTime stringValue], nil);    
+    STAssertTrue([expectedLocalTime isEqual:actualLocalTime], [actualLocalTime stringValue], nil);    
 }
 
 - (void) testGetLocalTimeAsStringForSunrise {
     SolarEventCalculator *calc = [self getCalculator];
         
-    NSString *expectedLocalTime = @"7:05";
+    NSString *expectedLocalTime = @"07:05";
     NSString *actualLocalTime = [calc getLocalTimeAsString:[NSDecimalNumber decimalNumberWithString:@"7.0826"]];
-    STAssertEquals(NSOrderedSame, [expectedLocalTime compare:actualLocalTime], actualLocalTime, nil);        
+    STAssertTrue([expectedLocalTime isEqual:actualLocalTime], actualLocalTime, nil);        
 }
 
 - (void) testGetLocalTimeAsStringForSunset {
@@ -172,7 +171,29 @@
     
     NSString *expectedLocalTime = @"18:28";
     NSString *actualLocalTime = [calc getLocalTimeAsString:[NSDecimalNumber decimalNumberWithString:@"18.4668"]];
-    STAssertEquals(NSOrderedSame, [expectedLocalTime compare:actualLocalTime], actualLocalTime, nil);
+    STAssertTrue([expectedLocalTime isEqual:actualLocalTime], actualLocalTime, nil);
+}
+
+- (void) testComputeSunriseTimeForSolarZenith {
+    SolarEventCalculator *calc = [self getCalculator];
+    
+    NSDate *date = [self getDate];
+    NSDecimalNumber *zenith = [NSDecimalNumber decimalNumberWithString:@"96"];
+    
+    NSString *expectedTime = @"07:05";
+    NSString *actualTime = [calc computeSunriseTimeForSolarZenith:zenith sunriseDate:date];
+    STAssertTrue([expectedTime isEqual:actualTime], actualTime, nil);
+}
+
+- (void) testComputeSunsetTimeForSolarZenith {
+    SolarEventCalculator *calc = [self getCalculator];
+
+    NSDate *date = [self getDate];
+    NSDecimalNumber *zenith = [NSDecimalNumber decimalNumberWithString:@"96"];
+    
+    NSString *expectedTime = @"18:28";
+    NSString *actualTime = [calc computeSunsetTimeForSolarZenith:zenith sunsetDate:date];
+    STAssertTrue([expectedTime isEqual:actualTime], actualTime, nil);
 }
 
 //Utility Method Tests
@@ -202,6 +223,7 @@
     STAssertEquals(NSOrderedSame, [[NSDecimalNumber decimalNumberWithString:@"1.0000"] compare:oneRadianInDegrees], [oneRadianInDegrees stringValue], nil);
 }
 
+// ***** Utility Methods *****
 - (SolarEventCalculator *) getCalculator {   
     return [[SolarEventCalculator alloc] initWithLocation: [[Location alloc] initWithLatitude:@"39.9937" Longitude:@"-75.7850"]];
 }

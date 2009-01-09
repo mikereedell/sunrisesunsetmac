@@ -15,10 +15,11 @@
 //- (id) initWithLocation:(Location *)locationArg timeZoneIdentifier:(NSString *)timeZoneIdentifier;
 
 // "Public" methods
-- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunriseDate:(NSCalendar *)date;
-- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSCalendar *)date;
+- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunriseDate:(NSDate *)date;
+- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date;
 
 //Computational methods
+- (NSString *) computeSolarEventForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date isSunrise:(BOOL)isSunrise;
 - (NSDecimalNumber *) getBaseLongitudeHour;
 - (NSDecimalNumber *) getLongitudeHourForDate:(NSDate *)date sunrise:(BOOL)isSunrise;
 - (NSDecimalNumber *) getMeanAnomaly:(NSDecimalNumber *)longitudeHour;
@@ -36,7 +37,7 @@
 - (NSDecimalNumber *) getCosineOfSunDeclination:(NSDecimalNumber *)sinSunDeclination;
 - (NSDecimalNumber *) multiply:(NSDecimalNumber *)multiplicand by:(NSDecimalNumber *)multiplier;
 - (NSDecimalNumber *) divide:(NSDecimalNumber *)dividend by:(NSDecimalNumber *)divisor;
-- (NSDecimalNumberHandler *) getHandler;
+- (NSDecimalNumberHandler *) getHandler:(short)scale;
 - (NSDecimalNumber *) getArcCosineFor:(NSDecimalNumber *)radians;
 - (NSDecimalNumber *) convertRadiansToDegrees:(NSDecimalNumber *)radians;
 - (NSDecimalNumber *) convertDegreesToRadians:(NSDecimalNumber *)degrees;
