@@ -8,23 +8,25 @@
     return self;
 }
 
-- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunriseDate:(NSDate *)date {
-    return [self computeSolarEventForSolarZenith:solarZenith sunsetDate:date isSunrise:true];
+- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith date:(NSDate *)date {
+    return [self computeSolarEventForSolarZenith:solarZenith date:date isSunrise:true];
 }
 
-- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date {
-    NSLog(@"SolarZenith");
-    NSLog([solarZenith stringValue]);
-    return [self computeSolarEventForSolarZenith:solarZenith sunsetDate:date isSunrise:false];
+- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith date:(NSDate *)date {
+    return [self computeSolarEventForSolarZenith:solarZenith date:date isSunrise:false];
 }
 
-- (NSString *) computeSolarEventForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date isSunrise:(BOOL)isSunrise {
+- (NSString *) computeSolarEventForSolarZenith:(NSDecimalNumber *)solarZenith date:(NSDate *)date isSunrise:(BOOL)isSunrise {
     NSDecimalNumber *longitudeHour = [self getLongitudeHourForDate:date sunrise:isSunrise];
     NSDecimalNumber *meanAnomaly = [self getMeanAnomaly:longitudeHour];
     NSDecimalNumber *sunTrueLongitude = [self getSunTrueLongitude:meanAnomaly];
     NSDecimalNumber *sunLocalHour = [self getSunLocalHour:sunTrueLongitude forZenith:solarZenith forSunrise:isSunrise];
     NSDecimalNumber *localMeanTime = [self getLocalMeanTime:sunTrueLongitude longitudeHour:longitudeHour sunLocalHour:sunLocalHour];
-    return [self getLocalTimeAsString:[self getLocalTime:localMeanTime forDate:date]];    
+    NSDecimalNumber *localTime = [self getLocalTime:localMeanTime forDate:date];
+    NSLog(@"LocalTime:");
+    NSLog([localTime stringValue]);
+    NSString *localTimeAsString = [self getLocalTimeAsString:localTime];
+    return localTimeAsString;
 }
 
 - (NSDecimalNumber *) getBaseLongitudeHour {
@@ -134,15 +136,20 @@
 
 - (NSString *) getLocalTimeAsString:(NSDecimalNumber *)localTime {
     NSArray *localTimeParts = [[localTime stringValue] componentsSeparatedByString:@"."];
-    NSString *hour = (NSString *)[localTimeParts objectAtIndex:0];
-    hour = ([hour length] == 1) ? [@"0" stringByAppendingString:hour] : hour;
-        
+    int hour = [(NSNumber *)[localTimeParts objectAtIndex:0] intValue];
+
     NSDecimalNumber *minutes = [NSDecimalNumber decimalNumberWithString:(NSString *)[localTimeParts objectAtIndex:1]];
     minutes = [minutes decimalNumberByMultiplyingByPowerOf10:(short)-4];
     minutes = [minutes decimalNumberByMultiplyingBy:[NSDecimalNumber decimalNumberWithString:@"60"] withBehavior:[self getHandler:(short)0]];
     
+    if([minutes intValue] == 60) {
+        minutes = [NSDecimalNumber zero];
+        hour++;
+    }
+    
+    NSString *hourString = (hour < 10) ? [@"0" stringByAppendingString:[NSString stringWithFormat:@"%d", hour]] : [NSString stringWithFormat:@"%d", hour];
     NSString *minString = ([minutes intValue] < 10) ? [@"0" stringByAppendingString:[minutes stringValue]] : [minutes stringValue];
-    return [[hour stringByAppendingString:@":"] stringByAppendingString:minString];
+    return [[hourString stringByAppendingString:@":"] stringByAppendingString:minString];
 }
 
 //Utility Methods

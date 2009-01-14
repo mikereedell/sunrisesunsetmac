@@ -15,11 +15,11 @@
 //- (id) initWithLocation:(Location *)locationArg timeZoneIdentifier:(NSString *)timeZoneIdentifier;
 
 // "Public" methods
-- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunriseDate:(NSDate *)date;
-- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date;
+- (NSString *) computeSunriseTimeForSolarZenith:(NSDecimalNumber *)solarZenith date:(NSDate *)date;
+- (NSString *) computeSunsetTimeForSolarZenith:(NSDecimalNumber *)solarZenith date:(NSDate *)date;
 
 //Computational methods
-- (NSString *) computeSolarEventForSolarZenith:(NSDecimalNumber *)solarZenith sunsetDate:(NSDate *)date isSunrise:(BOOL)isSunrise;
+- (NSString *) computeSolarEventForSolarZenith:(NSDecimalNumber *)solarZenith date:(NSDate *)date isSunrise:(BOOL)isSunrise;
 - (NSDecimalNumber *) getBaseLongitudeHour;
 - (NSDecimalNumber *) getLongitudeHourForDate:(NSDate *)date sunrise:(BOOL)isSunrise;
 - (NSDecimalNumber *) getMeanAnomaly:(NSDecimalNumber *)longitudeHour;

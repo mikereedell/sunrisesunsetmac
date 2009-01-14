@@ -8,6 +8,7 @@
 - (id) initWithLocation:(Location *)locationArg {
     [super init];
     location = locationArg;
+    calculator = [[SolarEventCalculator alloc] initWithLocation:location];
     return self;
 }
 
@@ -16,35 +17,35 @@
 }
 
 - (NSString *) getAstronomicalSunriseForDate:(NSDate *) date {
-    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"108"] sunriseDate:date];
+    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"108"] date:date];
 }
 
 - (NSString *) getAstronomicalSunsetForDate:(NSDate *) date {
-    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"108"] sunsetDate:date];
+    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"108"] date:date];
 }
 
 - (NSString *) getNauticalSunriseForDate:(NSDate *) date {
-    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"102"] sunriseDate:date];
+    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"102"] date:date];
 }
 
 - (NSString *) getNauticalSunsetForDate:(NSDate *) date {
-    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"102"] sunsetDate:date];
+    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"102"] date:date];
 }
 
 - (NSString *) getCivilSunriseForDate:(NSDate *) date {
-    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"96"] sunriseDate:date];
+    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"96"] date:date];
 }
 
 - (NSString *) getCivilSunsetForDate:(NSDate *) date {
-    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"96"] sunsetDate:date];
+    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"96"] date:date];
 }
 
 - (NSString *) getOfficialSunriseForDate:(NSDate *) date {
-    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"90.8333"] sunriseDate:date];
+    return [calculator computeSunriseTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"90.8333"] date:date];
 }
 
 - (NSString *) getOfficialSunsetForDate:(NSDate *) date {
-    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"90.8333"] sunsetDate:date];
+    return [calculator computeSunsetTimeForSolarZenith:[NSDecimalNumber decimalNumberWithString:@"90.8333"] date:date];
 }
 
 - (Location *) location {

@@ -171,7 +171,7 @@
     
     NSString *expectedLocalTime = @"18:28";
     NSString *actualLocalTime = [calc getLocalTimeAsString:[NSDecimalNumber decimalNumberWithString:@"18.4668"]];
-    STAssertTrue([expectedLocalTime isEqual:actualLocalTime], actualLocalTime, nil);
+    STAssertTrue([expectedLocalTime isEqual:actualLocalTime], @"Wrong time: %@", actualLocalTime);
 }
 
 - (void) testComputeSunriseTimeForSolarZenith {
@@ -181,8 +181,8 @@
     NSDecimalNumber *zenith = [NSDecimalNumber decimalNumberWithString:@"96"];
     
     NSString *expectedTime = @"07:05";
-    NSString *actualTime = [calc computeSunriseTimeForSolarZenith:zenith sunriseDate:date];
-    STAssertTrue([expectedTime isEqual:actualTime], actualTime, nil);
+    NSString *actualTime = [calc computeSunriseTimeForSolarZenith:zenith date:date];
+    STAssertTrue([expectedTime isEqual:actualTime], @"Wrong time: %@", actualTime);
 }
 
 - (void) testComputeSunsetTimeForSolarZenith {
@@ -192,8 +192,8 @@
     NSDecimalNumber *zenith = [NSDecimalNumber decimalNumberWithString:@"96"];
     
     NSString *expectedTime = @"18:28";
-    NSString *actualTime = [calc computeSunsetTimeForSolarZenith:zenith sunsetDate:date];
-    STAssertTrue([expectedTime isEqual:actualTime], actualTime, nil);
+    NSString *actualTime = [calc computeSunsetTimeForSolarZenith:zenith date:date];
+    STAssertTrue([expectedTime isEqual:actualTime], @"Wrong time: %@", actualTime);
 }
 
 //Utility Method Tests

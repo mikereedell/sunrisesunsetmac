@@ -1,7 +1,7 @@
 #import "SunriseSunsetCalculatorTest.h"
 
 
-@implementation SunriseSunsetCalculatorTest {
+@implementation SunriseSunsetCalculatorTest : SenTestCase {
     SunriseSunsetCalculator *calc;
     NSDate *date;
 }
@@ -18,17 +18,16 @@
 }
 
 - (void) tearDown {
-    
 }
 
 - (void) testGetAstronomicalSunrise {
     NSString *actual = [calc getAstronomicalSunriseForDate:date];
-    STAssertTrue([@"06:01" isEqual:actual], @"%s", actual);
+    STAssertTrue([@"06:01" isEqual:actual], @"Wrong time: %@", actual);
 }
 
 - (void) testGetAstronomicalSunset {
     NSString *actual = [calc getAstronomicalSunsetForDate:date];
-    STAssertTrue([@"19:32" isEqual:actual], actual);
+    STAssertTrue([@"19:32" isEqual:actual], @"Wrong time: %@", actual);
 }
 
 - (void) testGetNauticalSunrise {
@@ -38,7 +37,7 @@
 
 - (void) testGetNauticalSunset {
     NSString *actual = [calc getNauticalSunsetForDate:date];
-    STAssertTrue([@"19:00" isEqual:actual], actual, nil);
+    STAssertTrue([@"19:00" isEqual:actual], @"Wrong time: %@", actual);
 }
 
 - (void) testGetCivilSunrise {
@@ -48,7 +47,7 @@
 
 - (void) testGetCivilSunset {
     NSString *actual = [calc getCivilSunsetForDate:date];
-    STAssertTrue([@"18:28" isEqual:actual], actual, nil);
+    STAssertTrue([@"18:28" isEqual:actual],  @"Wrong time: %@", actual);
 }
 
 - (void) testGetOfficialSunrise {
@@ -58,7 +57,7 @@
 
 - (void) testGetOfficialSunset {
     NSString *actual = [calc getOfficialSunsetForDate:date];
-    STAssertTrue([@"18:00" isEqual:actual], actual, nil);
+    STAssertTrue([@"18:00" isEqual:actual], @"Wrong time: %@", actual);
 }
 
 @end
